@@ -1,0 +1,6127 @@
+{
+    "Crailsheim": {
+        "city": "Crailsheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1337354,
+        "longitude": 10.0633573
+    },
+    "Dortmund": {
+        "city": "Dortmund",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5135872,
+        "longitude": 7.465298100000001
+    },
+    "Stuttgart": {
+        "city": "Stuttgart",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7758459,
+        "longitude": 9.1829321
+    },
+    "M\u00fcnchen": {
+        "city": "M\u00fcnchen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1351253,
+        "longitude": 11.5819806
+    },
+    "Berlin": {
+        "city": "Berlin",
+        "federal_state": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52000659999999,
+        "longitude": 13.404954
+    },
+    "Wien": {
+        "city": "Wien",
+        "federal_state": "Vienna",
+        "country": "Austria",
+        "latitude": 48.20806959999999,
+        "longitude": 16.3713095
+    },
+    "Offenbach am Main": {
+        "city": "Offenbach am Main",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.09563620000001,
+        "longitude": 8.776084299999999
+    },
+    "Eberbach": {
+        "city": "Eberbach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4694813,
+        "longitude": 8.9898436
+    },
+    "G\u00f6rlitz": {
+        "city": "G\u00f6rlitz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.1524553,
+        "longitude": 14.9688941
+    },
+    "Pfedelbach": {
+        "city": "Pfedelbach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1783423,
+        "longitude": 9.507019099999999
+    },
+    "Unterhaching": {
+        "city": "Unterhaching",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0653989,
+        "longitude": 11.6224237
+    },
+    "Karl-Liebknecht str. 24, Hildburghausen, Th\u00fcringen": {
+        "city": "Karl-Liebknecht str. 24, Hildburghausen, Th\u00fcringen",
+        "federal_state": "Th\u00fcringen",
+        "country": "Germany",
+        "latitude": 50.4349933,
+        "longitude": 10.7279801
+    },
+    "R\u00fcdesheim am Rhein": {
+        "city": "R\u00fcdesheim am Rhein",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.98214429999999,
+        "longitude": 7.9301124
+    },
+    "Dresden": {
+        "city": "Dresden",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.0504088,
+        "longitude": 13.7372621
+    },
+    "Gummersbach": {
+        "city": "Gummersbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0275951,
+        "longitude": 7.563750499999999
+    },
+    "Kassel": {
+        "city": "Kassel",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.3118828,
+        "longitude": 9.4915751
+    },
+    "Wenzenbach": {
+        "city": "Wenzenbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.0758074,
+        "longitude": 12.1988658
+    },
+    "Merseburg": {
+        "city": "Merseburg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.3543817,
+        "longitude": 11.99261
+    },
+    "Gommern": {
+        "city": "Gommern",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 52.07321340000001,
+        "longitude": 11.8252552
+    },
+    "Pommelsbrunn": {
+        "city": "Pommelsbrunn",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5028474,
+        "longitude": 11.5127013
+    },
+    "Duisburg": {
+        "city": "Duisburg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4344079,
+        "longitude": 6.762329299999999
+    },
+    "Herzogenrath": {
+        "city": "Herzogenrath",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8848518,
+        "longitude": 6.109469499999999
+    },
+    "Schwandorf": {
+        "city": "Schwandorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.3308876,
+        "longitude": 12.1068067
+    },
+    "Mainz": {
+        "city": "Mainz",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.9928617,
+        "longitude": 8.2472526
+    },
+    "Podskalie": {
+        "city": "Podskalie",
+        "federal_state": "Tren\u010d\u00edn Region",
+        "country": "Slovakia",
+        "latitude": 49.04457439999999,
+        "longitude": 18.4544375
+    },
+    "Zinnowitz": {
+        "city": "Zinnowitz",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 54.0754408,
+        "longitude": 13.9084742
+    },
+    "Quedlinburg": {
+        "city": "Quedlinburg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.7920562,
+        "longitude": 11.141448
+    },
+    "Poland , Gdansk , Al. Grunwaldzka 7, ap. 1a": {
+        "city": "Poland , Gdansk , Al. Grunwaldzka 7, ap. 1a",
+        "federal_state": "Wojew\u00f3dztwo pomorskie",
+        "country": "Poland",
+        "latitude": 54.37530659999999,
+        "longitude": 18.6194542
+    },
+    "Wolfsburg": {
+        "city": "Wolfsburg",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4226503,
+        "longitude": 10.7865461
+    },
+    "Weilburg": {
+        "city": "Weilburg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.4859255,
+        "longitude": 8.2722569
+    },
+    "Dillenburg": {
+        "city": "Dillenburg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.7452841,
+        "longitude": 8.2807631
+    },
+    "Neu-Ulm": {
+        "city": "Neu-Ulm",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3830252,
+        "longitude": 10.0054584
+    },
+    "Lauter-Bernsbach": {
+        "city": "Lauter-Bernsbach",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.5634621,
+        "longitude": 12.7381531
+    },
+    "Bonn": {
+        "city": "Bonn",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.73743,
+        "longitude": 7.0982068
+    },
+    "Riedstadt": {
+        "city": "Riedstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.8431788,
+        "longitude": 8.4671693
+    },
+    "Rosenheim": {
+        "city": "Rosenheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.8571272,
+        "longitude": 12.1181047
+    },
+    "M\u00f6nchengladbach": {
+        "city": "M\u00f6nchengladbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1941686,
+        "longitude": 6.4315392
+    },
+    "Neuburg": {
+        "city": "Neuburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.7302674,
+        "longitude": 11.1887693
+    },
+    "Rostock": {
+        "city": "Rostock",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 54.0924406,
+        "longitude": 12.0991466
+    },
+    "Bad Oeynhausen": {
+        "city": "Bad Oeynhausen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2084623,
+        "longitude": 8.8009706
+    },
+    "Chemnitz": {
+        "city": "Chemnitz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.8282222,
+        "longitude": 12.9208547
+    },
+    "Diez": {
+        "city": "Diez",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3706368,
+        "longitude": 8.016054
+    },
+    "N\u00fcrnberg": {
+        "city": "N\u00fcrnberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.45428810000001,
+        "longitude": 11.0745641
+    },
+    "Laubach": {
+        "city": "Laubach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5413385,
+        "longitude": 8.9868956
+    },
+    "D\u00fcren": {
+        "city": "D\u00fcren",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8037183,
+        "longitude": 6.4793683
+    },
+    "D\u00fcsseldorf": {
+        "city": "D\u00fcsseldorf",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2230411,
+        "longitude": 6.7824545
+    },
+    "Zwickau": {
+        "city": "Zwickau",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.7176452,
+        "longitude": 12.4968797
+    },
+    "Bremen": {
+        "city": "Bremen",
+        "federal_state": "Bremen",
+        "country": "Germany",
+        "latitude": 53.07929619999999,
+        "longitude": 8.8016937
+    },
+    "Halle": {
+        "city": "Halle",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.49535669999999,
+        "longitude": 11.9662371
+    },
+    "Erbach": {
+        "city": "Erbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.6558833,
+        "longitude": 8.9961444
+    },
+    "J\u00fcnkerath": {
+        "city": "J\u00fcnkerath",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3462873,
+        "longitude": 6.5730076
+    },
+    "Magdeburg": {
+        "city": "Magdeburg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 52.1131758,
+        "longitude": 11.6080863
+    },
+    "Celle": {
+        "city": "Celle",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.6263797,
+        "longitude": 10.080865
+    },
+    "Germering": {
+        "city": "Germering",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.13518089999999,
+        "longitude": 11.3690889
+    },
+    "Kleve": {
+        "city": "Kleve",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.78672599999999,
+        "longitude": 6.12954
+    },
+    "Leinfelden-Echterdingen": {
+        "city": "Leinfelden-Echterdingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.693655,
+        "longitude": 9.1389897
+    },
+    "Garmisch-Partenkirchen": {
+        "city": "Garmisch-Partenkirchen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.4919023,
+        "longitude": 11.0947806
+    },
+    "Leipzig": {
+        "city": "Leipzig",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.3396955,
+        "longitude": 12.3730747
+    },
+    "Hof": {
+        "city": "Hof",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.3135391,
+        "longitude": 11.9127814
+    },
+    "L\u00fcnen": {
+        "city": "L\u00fcnen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6104829,
+        "longitude": 7.5285074
+    },
+    "Murr": {
+        "city": "Murr",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9609405,
+        "longitude": 9.2523179
+    },
+    "Bochum": {
+        "city": "Bochum",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4818445,
+        "longitude": 7.216236299999999
+    },
+    "Leonberg": {
+        "city": "Leonberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7960447,
+        "longitude": 9.0095706
+    },
+    "Bad Homburg vor der H\u00f6he": {
+        "city": "Bad Homburg vor der H\u00f6he",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2284412,
+        "longitude": 8.617754999999999
+    },
+    "Kiel": {
+        "city": "Kiel",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.3232927,
+        "longitude": 10.1227652
+    },
+    "Theres": {
+        "city": "Theres",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0198792,
+        "longitude": 10.4475161
+    },
+    "L\u00fcchow": {
+        "city": "L\u00fcchow",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.9664542,
+        "longitude": 11.1503249
+    },
+    "Stolberg": {
+        "city": "Stolberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7730884,
+        "longitude": 6.225193399999999
+    },
+    "Bautzen": {
+        "city": "Bautzen",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.18229299999999,
+        "longitude": 14.4237749
+    },
+    "Weiden": {
+        "city": "Weiden",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.6743636,
+        "longitude": 12.1489337
+    },
+    "Osterode am Harz": {
+        "city": "Osterode am Harz",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.7293769,
+        "longitude": 10.2580311
+    },
+    "Vor Ebersbach 1, 77761 Schiltach": {
+        "city": "Vor Ebersbach 1, 77761 Schiltach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2859501,
+        "longitude": 8.344147699999999
+    },
+    "G\u00f6ppingen": {
+        "city": "G\u00f6ppingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7054382,
+        "longitude": 9.6512491
+    },
+    "Ansbach": {
+        "city": "Ansbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.3004246,
+        "longitude": 10.5719357
+    },
+    "Aachen": {
+        "city": "Aachen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7753455,
+        "longitude": 6.083886800000001
+    },
+    "Menden": {
+        "city": "Menden",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4377453,
+        "longitude": 7.7953337
+    },
+    "Iserlohn": {
+        "city": "Iserlohn",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3765096,
+        "longitude": 7.6960842
+    },
+    "Aying": {
+        "city": "Aying",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.9699919,
+        "longitude": 11.7766608
+    },
+    "Mannheim": {
+        "city": "Mannheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4873329,
+        "longitude": 8.4646441
+    },
+    "Hamburg": {
+        "city": "Hamburg",
+        "federal_state": "Hamburg",
+        "country": "Germany",
+        "latitude": 53.5488282,
+        "longitude": 9.987170299999999
+    },
+    "Einhausen": {
+        "city": "Einhausen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.6719977,
+        "longitude": 8.5457511
+    },
+    "Minden": {
+        "city": "Minden",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2923549,
+        "longitude": 8.9160539
+    },
+    "Igalo": {
+        "city": "Igalo",
+        "federal_state": "Herceg Novi Municipality",
+        "country": "Montenegro",
+        "latitude": 42.4597743,
+        "longitude": 18.5092147
+    },
+    "S\u00fc\u00dfen": {
+        "city": "S\u00fc\u00dfen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.67984509999999,
+        "longitude": 9.7567784
+    },
+    "Flensburg": {
+        "city": "Flensburg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.7937431,
+        "longitude": 9.4469964
+    },
+    "T\u00f6nning": {
+        "city": "T\u00f6nning",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.31572269999999,
+        "longitude": 8.9381144
+    },
+    "Aschaffenburg": {
+        "city": "Aschaffenburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9736814,
+        "longitude": 9.1476398
+    },
+    "Holzwickede": {
+        "city": "Holzwickede",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4998482,
+        "longitude": 7.6209355
+    },
+    "Villingen\u2011Schwenningen": {
+        "city": "Villingen\u2011Schwenningen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0594021,
+        "longitude": 8.4640869
+    },
+    "Ochtrup": {
+        "city": "Ochtrup",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2057777,
+        "longitude": 7.1875617
+    },
+    "Klosterlechfeld": {
+        "city": "Klosterlechfeld",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1589497,
+        "longitude": 10.8300526
+    },
+    "Straubing": {
+        "city": "Straubing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8777333,
+        "longitude": 12.5801538
+    },
+    "Augsburg": {
+        "city": "Augsburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3705449,
+        "longitude": 10.89779
+    },
+    "Rheine": {
+        "city": "Rheine",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2815691,
+        "longitude": 7.443409200000001
+    },
+    "Singen": {
+        "city": "Singen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.7628032,
+        "longitude": 8.8380152
+    },
+    "Werl": {
+        "city": "Werl",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5583773,
+        "longitude": 7.9114426
+    },
+    "Schweinfurt": {
+        "city": "Schweinfurt",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0494345,
+        "longitude": 10.2200758
+    },
+    "Ditzingen": {
+        "city": "Ditzingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8264662,
+        "longitude": 9.067556399999999
+    },
+    "Frankfurt": {
+        "city": "Frankfurt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1109221,
+        "longitude": 8.6821267
+    },
+    "Waldbronn": {
+        "city": "Waldbronn",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9277695,
+        "longitude": 8.4725874
+    },
+    "Bad Wildbad im Schwarzwald": {
+        "city": "Bad Wildbad im Schwarzwald",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.751608,
+        "longitude": 8.549273099999999
+    },
+    "Essen": {
+        "city": "Essen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4575573,
+        "longitude": 7.0224632
+    },
+    "Weil am Rhein": {
+        "city": "Weil am Rhein",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.5934368,
+        "longitude": 7.6198121
+    },
+    "Lahnstein": {
+        "city": "Lahnstein",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3078274,
+        "longitude": 7.609363300000001
+    },
+    "Osnabr\u00fcck": {
+        "city": "Osnabr\u00fcck",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2799112,
+        "longitude": 8.0471788
+    },
+    "Lierschied": {
+        "city": "Lierschied",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.1701545,
+        "longitude": 7.746057800000001
+    },
+    "Eggenfelden": {
+        "city": "Eggenfelden",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.40508879999999,
+        "longitude": 12.7575168
+    },
+    "Trebgast": {
+        "city": "Trebgast",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.06585150000001,
+        "longitude": 11.5520426
+    },
+    "Verl": {
+        "city": "Verl",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.8802791,
+        "longitude": 8.4990214
+    },
+    "Wesel": {
+        "city": "Wesel",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6643079,
+        "longitude": 6.6295679
+    },
+    "Frammersbach": {
+        "city": "Frammersbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0632312,
+        "longitude": 9.4699491
+    },
+    "Grevesm\u00fchlen": {
+        "city": "Grevesm\u00fchlen",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.8600277,
+        "longitude": 11.1906933
+    },
+    "Perleberg": {
+        "city": "Perleberg",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 53.08196419999999,
+        "longitude": 11.8598787
+    },
+    "Michelfeld": {
+        "city": "Michelfeld",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.096931,
+        "longitude": 9.6778313
+    },
+    "Stralsund": {
+        "city": "Stralsund",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 54.30906539999999,
+        "longitude": 13.0770347
+    },
+    "Zeitz": {
+        "city": "Zeitz",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.0443266,
+        "longitude": 12.1402795
+    },
+    "Novi Sad": {
+        "city": "Novi Sad",
+        "federal_state": "Vojvodina",
+        "country": "Serbia",
+        "latitude": 45.2396085,
+        "longitude": 19.8227056
+    },
+    "M\u00fcnster": {
+        "city": "M\u00fcnster",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9606649,
+        "longitude": 7.6261347
+    },
+    "Helmstedt": {
+        "city": "Helmstedt",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2272927,
+        "longitude": 11.003723
+    },
+    "Krefeld": {
+        "city": "Krefeld",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.33453,
+        "longitude": 6.565408199999999
+    },
+    "Rastatt": {
+        "city": "Rastatt",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8590212,
+        "longitude": 8.2099996
+    },
+    "Detmold": {
+        "city": "Detmold",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9384783,
+        "longitude": 8.868637999999999
+    },
+    "Weinstadt": {
+        "city": "Weinstadt",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8108645,
+        "longitude": 9.364447499999999
+    },
+    "Friedrichshafen": {
+        "city": "Friedrichshafen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.65673289999999,
+        "longitude": 9.4649538
+    },
+    "W\u00e4chtersbach": {
+        "city": "W\u00e4chtersbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2550222,
+        "longitude": 9.2918865
+    },
+    "Wei\u00dfenburg in Bayern": {
+        "city": "Wei\u00dfenburg in Bayern",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.03305659999999,
+        "longitude": 10.9719422
+    },
+    "Solingen": {
+        "city": "Solingen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1748808,
+        "longitude": 7.0847931
+    },
+    "Worms": {
+        "city": "Worms",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.6341372,
+        "longitude": 8.3507182
+    },
+    "Schlangen": {
+        "city": "Schlangen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.8078091,
+        "longitude": 8.837571100000002
+    },
+    "Schwarzenberg": {
+        "city": "Schwarzenberg",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.5425641,
+        "longitude": 12.7792228
+    },
+    "Ludwigsburg": {
+        "city": "Ludwigsburg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8891149,
+        "longitude": 9.1942834
+    },
+    "B\u00fcchen": {
+        "city": "B\u00fcchen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.5241354,
+        "longitude": 9.3250344
+    },
+    "Remscheid": {
+        "city": "Remscheid",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1801079,
+        "longitude": 7.225058799999999
+    },
+    "Kulmbach": {
+        "city": "Kulmbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.1039282,
+        "longitude": 11.4448178
+    },
+    "Burghausen": {
+        "city": "Burghausen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1725613,
+        "longitude": 12.8310753
+    },
+    "Meinerzhagen": {
+        "city": "Meinerzhagen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1052543,
+        "longitude": 7.650938399999999
+    },
+    "Torgau": {
+        "city": "Torgau",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.557934,
+        "longitude": 12.991583
+    },
+    "Coesfeld": {
+        "city": "Coesfeld",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9382944,
+        "longitude": 7.1675831
+    },
+    "Hartmannsdorf": {
+        "city": "Hartmannsdorf",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.88663829999999,
+        "longitude": 12.8009793
+    },
+    "Adelschlag": {
+        "city": "Adelschlag",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8395987,
+        "longitude": 11.2185762
+    },
+    "Eisenberg": {
+        "city": "Eisenberg",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.9686064,
+        "longitude": 11.8926466
+    },
+    "Kehl": {
+        "city": "Kehl",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5788725,
+        "longitude": 7.8160821
+    },
+    "Delbr\u00fcck": {
+        "city": "Delbr\u00fcck",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.7650575,
+        "longitude": 8.5620753
+    },
+    "Kempten": {
+        "city": "Kempten",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.7285699,
+        "longitude": 10.3157835
+    },
+    "Marburg": {
+        "city": "Marburg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.8018843,
+        "longitude": 8.7657677
+    },
+    "Oranienburg": {
+        "city": "Oranienburg",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.7557351,
+        "longitude": 13.2408643
+    },
+    "Siegen": {
+        "city": "Siegen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8838492,
+        "longitude": 8.020959099999999
+    },
+    "Castrop-Rauxel": {
+        "city": "Castrop-Rauxel",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5632625,
+        "longitude": 7.3150145
+    },
+    "Kalkar": {
+        "city": "Kalkar",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.737317,
+        "longitude": 6.2908256
+    },
+    "W\u00fcrzburg": {
+        "city": "W\u00fcrzburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.79130439999999,
+        "longitude": 9.9533548
+    },
+    "Molsberg": {
+        "city": "Molsberg",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.4823305,
+        "longitude": 7.9674877
+    },
+    "Rust": {
+        "city": "Rust",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2672137,
+        "longitude": 7.725619099999999
+    },
+    "Bad Hersfeld": {
+        "city": "Bad Hersfeld",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.8701345,
+        "longitude": 9.7019675
+    },
+    "S\u00fcdlohn": {
+        "city": "S\u00fcdlohn",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9439912,
+        "longitude": 6.8692284
+    },
+    "Erfurt": {
+        "city": "Erfurt",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.98476789999999,
+        "longitude": 11.0298799
+    },
+    "Wiesenttal": {
+        "city": "Wiesenttal",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.811649,
+        "longitude": 11.2477637
+    },
+    "Altenstadt": {
+        "city": "Altenstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2882863,
+        "longitude": 8.943386499999999
+    },
+    "Sankt Leon-Rot": {
+        "city": "Sankt Leon-Rot",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.2568614,
+        "longitude": 8.6265334
+    },
+    "Friedrichsdorf": {
+        "city": "Friedrichsdorf",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2538496,
+        "longitude": 8.6417409
+    },
+    "Heinsberg": {
+        "city": "Heinsberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0640858,
+        "longitude": 6.0943707
+    },
+    "Passau": {
+        "city": "Passau",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.5667364,
+        "longitude": 13.4319466
+    },
+    "Darmstadt": {
+        "city": "Darmstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.8728253,
+        "longitude": 8.6511929
+    },
+    "Ruhla": {
+        "city": "Ruhla",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.8900502,
+        "longitude": 10.3736562
+    },
+    "Bad Nauheim": {
+        "city": "Bad Nauheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3672668,
+        "longitude": 8.739391399999999
+    },
+    "B\u00e4rnau": {
+        "city": "B\u00e4rnau",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.8110872,
+        "longitude": 12.4307524
+    },
+    "Erftstadt": {
+        "city": "Erftstadt",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7997035,
+        "longitude": 6.774014500000001
+    },
+    "Arnsberg": {
+        "city": "Arnsberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4073375,
+        "longitude": 8.052771
+    },
+    "Pullach im Isartal": {
+        "city": "Pullach im Isartal",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.05745040000001,
+        "longitude": 11.519143
+    },
+    "Gelnhausen": {
+        "city": "Gelnhausen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2045664,
+        "longitude": 9.1863725
+    },
+    "Liederbach am Taunus": {
+        "city": "Liederbach am Taunus",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1275302,
+        "longitude": 8.484905399999999
+    },
+    "Gr\u00f6ditz": {
+        "city": "Gr\u00f6ditz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.4110818,
+        "longitude": 13.4471558
+    },
+    "Trier": {
+        "city": "Trier",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.7500569,
+        "longitude": 6.637188999999999
+    },
+    "Buxtehude": {
+        "city": "Buxtehude",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.467942,
+        "longitude": 9.6897886
+    },
+    "Uelzen": {
+        "city": "Uelzen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.9652883,
+        "longitude": 10.5573402
+    },
+    "Aldenhoven": {
+        "city": "Aldenhoven",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.89488240000001,
+        "longitude": 6.287122099999999
+    },
+    "Lutherstadt Wittenberg": {
+        "city": "Lutherstadt Wittenberg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.87046429999999,
+        "longitude": 12.6411506
+    },
+    "Friedenweiler": {
+        "city": "Friedenweiler",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.9169815,
+        "longitude": 8.2564049
+    },
+    "Witzeeze": {
+        "city": "Witzeeze",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.4521172,
+        "longitude": 10.6080702
+    },
+    "Neuss": {
+        "city": "Neuss",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2041968,
+        "longitude": 6.6879511
+    },
+    "Pforzheim": {
+        "city": "Pforzheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8921862,
+        "longitude": 8.6946286
+    },
+    "K\u00f6nigswinter": {
+        "city": "K\u00f6nigswinter",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.6772453,
+        "longitude": 7.1911458
+    },
+    "Northeim": {
+        "city": "Northeim",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.7013769,
+        "longitude": 9.995866000000001
+    },
+    "Rohrdorf": {
+        "city": "Rohrdorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.7971646,
+        "longitude": 12.1671072
+    },
+    "Filderstadt": {
+        "city": "Filderstadt",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.67819739999999,
+        "longitude": 9.2161353
+    },
+    "\u00dcbelbach": {
+        "city": "\u00dcbelbach",
+        "federal_state": "Styria",
+        "country": "Austria",
+        "latitude": 47.2255096,
+        "longitude": 15.2340661
+    },
+    "F\u00fcrth": {
+        "city": "F\u00fcrth",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.4771169,
+        "longitude": 10.988667
+    },
+    "Kerpen": {
+        "city": "Kerpen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8747592,
+        "longitude": 6.6883728
+    },
+    "Warszawa": {
+        "city": "Warszawa",
+        "federal_state": "Masovian Voivodeship",
+        "country": "Poland",
+        "latitude": 52.2296756,
+        "longitude": 21.0122287
+    },
+    "Markdorf": {
+        "city": "Markdorf",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.7193839,
+        "longitude": 9.3925019
+    },
+    "Hannover": {
+        "city": "Hannover",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.3758916,
+        "longitude": 9.732010400000002
+    },
+    "M\u00fclheim an der Ruhr": {
+        "city": "M\u00fclheim an der Ruhr",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4185682,
+        "longitude": 6.884522599999999
+    },
+    "Erkner": {
+        "city": "Erkner",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.4244119,
+        "longitude": 13.7497832
+    },
+    "Monschau": {
+        "city": "Monschau",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.5549,
+        "longitude": 6.2406434
+    },
+    "Bad Segeberg": {
+        "city": "Bad Segeberg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.9332035,
+        "longitude": 10.3035862
+    },
+    "Lauf an der Pegnitz": {
+        "city": "Lauf an der Pegnitz",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5110483,
+        "longitude": 11.2780245
+    },
+    "Oberasbach": {
+        "city": "Oberasbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.4324695,
+        "longitude": 10.9712927
+    },
+    "Naumburg": {
+        "city": "Naumburg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.1520283,
+        "longitude": 11.8142454
+    },
+    "Wandlitz": {
+        "city": "Wandlitz",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.75422,
+        "longitude": 13.47277
+    },
+    "Witten": {
+        "city": "Witten",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4438926,
+        "longitude": 7.353197000000001
+    },
+    "Obernheim": {
+        "city": "Obernheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.16307620000001,
+        "longitude": 8.8606568
+    },
+    "Wilhelmshaven": {
+        "city": "Wilhelmshaven",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.53234029999999,
+        "longitude": 8.1068722
+    },
+    "Heimbuchenthal": {
+        "city": "Heimbuchenthal",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.8825012,
+        "longitude": 9.2934972
+    },
+    "Weiterstadt": {
+        "city": "Weiterstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.9010899,
+        "longitude": 8.5968319
+    },
+    "Braunfels": {
+        "city": "Braunfels",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5169338,
+        "longitude": 8.3908989
+    },
+    "Salzwedel": {
+        "city": "Salzwedel",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 52.84965039999999,
+        "longitude": 11.1514876
+    },
+    "Rechitsa": {
+        "city": "Rechitsa",
+        "federal_state": "Gomel Region",
+        "country": "Belarus",
+        "latitude": 52.3678183,
+        "longitude": 30.3958802
+    },
+    "Freiburg": {
+        "city": "Freiburg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.9990077,
+        "longitude": 7.842104299999999
+    },
+    "Regensburg": {
+        "city": "Regensburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.0134297,
+        "longitude": 12.1016236
+    },
+    "Leer": {
+        "city": "Leer",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.235657,
+        "longitude": 7.4679018
+    },
+    "H\u00f6henkirchen-Siegertsbrunn": {
+        "city": "H\u00f6henkirchen-Siegertsbrunn",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0194894,
+        "longitude": 11.7190903
+    },
+    "Coburg": {
+        "city": "Coburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.2612581,
+        "longitude": 10.962576
+    },
+    "Wolfenb\u00fcttel": {
+        "city": "Wolfenb\u00fcttel",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.160443,
+        "longitude": 10.5342445
+    },
+    "Niederorschel": {
+        "city": "Niederorschel",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 51.3735569,
+        "longitude": 10.4240319
+    },
+    "Vierden": {
+        "city": "Vierden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.3271582,
+        "longitude": 9.5029583
+    },
+    "Ostbevern": {
+        "city": "Ostbevern",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.0375546,
+        "longitude": 7.8431205
+    },
+    "Bad Pyrmont": {
+        "city": "Bad Pyrmont",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.9855648,
+        "longitude": 9.2520911
+    },
+    "Stelle": {
+        "city": "Stelle",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.3842619,
+        "longitude": 10.1023503
+    },
+    "Wadgassen": {
+        "city": "Wadgassen",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.2678889,
+        "longitude": 6.791126999999999
+    },
+    "Leingarten": {
+        "city": "Leingarten",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1451573,
+        "longitude": 9.1171933
+    },
+    "Obermarchtal": {
+        "city": "Obermarchtal",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.23377740000001,
+        "longitude": 9.5699709
+    },
+    "G\u00fcglingen": {
+        "city": "G\u00fcglingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.06666569999999,
+        "longitude": 9.001377999999999
+    },
+    "Linz": {
+        "city": "Linz",
+        "federal_state": "Upper Austria",
+        "country": "Austria",
+        "latitude": 48.3069096,
+        "longitude": 14.285918
+    },
+    "Sankt Ingbert": {
+        "city": "Sankt Ingbert",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.2774456,
+        "longitude": 7.1118995
+    },
+    "Staufen im Breisgau": {
+        "city": "Staufen im Breisgau",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.8823873,
+        "longitude": 7.7286645
+    },
+    "Erlensee": {
+        "city": "Erlensee",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.16299799999999,
+        "longitude": 8.9797139
+    },
+    "Erkrath": {
+        "city": "Erkrath",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2207886,
+        "longitude": 6.907085899999999
+    },
+    "Kornwestheim": {
+        "city": "Kornwestheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.86510879999999,
+        "longitude": 9.1857957
+    },
+    "Wiesbaden": {
+        "city": "Wiesbaden",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.0782184,
+        "longitude": 8.239760799999999
+    },
+    "Leutershausen": {
+        "city": "Leutershausen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.300125,
+        "longitude": 10.4073993
+    },
+    "Rees": {
+        "city": "Rees",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.7670727,
+        "longitude": 6.4015065
+    },
+    "Schwerin": {
+        "city": "Schwerin",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.6353316,
+        "longitude": 11.4003136
+    },
+    "S\u0142upsk": {
+        "city": "S\u0142upsk",
+        "federal_state": "Pomeranian Voivodeship",
+        "country": "Poland",
+        "latitude": 54.4643059,
+        "longitude": 17.0283557
+    },
+    "Reutlingen": {
+        "city": "Reutlingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.49437,
+        "longitude": 9.202803099999999
+    },
+    "Hamm": {
+        "city": "Hamm",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6738583,
+        "longitude": 7.815981600000001
+    },
+    "K\u00f6ln": {
+        "city": "K\u00f6ln",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.937531,
+        "longitude": 6.9602786
+    },
+    "Gda\u0144sk": {
+        "city": "Gda\u0144sk",
+        "federal_state": "Pomeranian Voivodeship",
+        "country": "Poland",
+        "latitude": 54.35202520000001,
+        "longitude": 18.6466384
+    },
+    "Allendorf": {
+        "city": "Allendorf",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.0264632,
+        "longitude": 8.6703679
+    },
+    "Gladenbach": {
+        "city": "Gladenbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.7647016,
+        "longitude": 8.5778368
+    },
+    "Euskirchen": {
+        "city": "Euskirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.6574392,
+        "longitude": 6.7899945
+    },
+    "Gerlingen": {
+        "city": "Gerlingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7996194,
+        "longitude": 9.0643918
+    },
+    "L\u00fcbeck": {
+        "city": "L\u00fcbeck",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.8654673,
+        "longitude": 10.6865593
+    },
+    "B\u00fcren": {
+        "city": "B\u00fcren",
+        "federal_state": "St. Gallen",
+        "country": "Switzerland",
+        "latitude": 47.4659823,
+        "longitude": 9.203249600000001
+    },
+    "Ganderkesee": {
+        "city": "Ganderkesee",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.0349245,
+        "longitude": 8.5426865
+    },
+    "Ohrdruf": {
+        "city": "Ohrdruf",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.8274129,
+        "longitude": 10.7341024
+    },
+    "Beverungen": {
+        "city": "Beverungen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6684529,
+        "longitude": 9.3722807
+    },
+    "Oldenburg": {
+        "city": "Oldenburg",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.1434501,
+        "longitude": 8.214552099999999
+    },
+    "Usingen": {
+        "city": "Usingen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3353122,
+        "longitude": 8.5320064
+    },
+    "Geilenkirchen": {
+        "city": "Geilenkirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.9716815,
+        "longitude": 6.119631
+    },
+    "Leichlingen": {
+        "city": "Leichlingen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.103714,
+        "longitude": 7.012026199999999
+    },
+    "Veldenz": {
+        "city": "Veldenz",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.8895257,
+        "longitude": 7.0234615
+    },
+    "Ahad Al Masarihah": {
+        "city": "Ahad Al Masarihah",
+        "federal_state": "Jazan Province",
+        "country": "Saudi Arabia",
+        "latitude": 16.7111579,
+        "longitude": 42.9537601
+    },
+    "Werder": {
+        "city": "Werder",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.3647941,
+        "longitude": 12.8700716
+    },
+    "Morsbach": {
+        "city": "Morsbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8665594,
+        "longitude": 7.7267267
+    },
+    "Herdecke": {
+        "city": "Herdecke",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4031667,
+        "longitude": 7.4328376
+    },
+    "Gie\u00dfen": {
+        "city": "Gie\u00dfen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5840512,
+        "longitude": 8.678403099999999
+    },
+    "Seevetal": {
+        "city": "Seevetal",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.3807019,
+        "longitude": 10.0300811
+    },
+    "Korschenbroich": {
+        "city": "Korschenbroich",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1894661,
+        "longitude": 6.514404799999999
+    },
+    "Stendal": {
+        "city": "Stendal",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 52.6041444,
+        "longitude": 11.8517729
+    },
+    "Teublitz": {
+        "city": "Teublitz",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.2206976,
+        "longitude": 12.084899
+    },
+    "Meerbusch": {
+        "city": "Meerbusch",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2503512,
+        "longitude": 6.690717299999999
+    },
+    "Oberg\u00fcnzburg": {
+        "city": "Oberg\u00fcnzburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.8469118,
+        "longitude": 10.4202295
+    },
+    "Eggolsheim": {
+        "city": "Eggolsheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.770304,
+        "longitude": 11.0558092
+    },
+    "Limbach-Oberfrohna": {
+        "city": "Limbach-Oberfrohna",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.8575662,
+        "longitude": 12.7537198
+    },
+    "Kraichtal": {
+        "city": "Kraichtal",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.125859,
+        "longitude": 8.7407191
+    },
+    "Rathenow": {
+        "city": "Rathenow",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.6045279,
+        "longitude": 12.3371251
+    },
+    "\u015arem": {
+        "city": "\u015arem",
+        "federal_state": "Greater Poland Voivodeship",
+        "country": "Poland",
+        "latitude": 52.0887,
+        "longitude": 17.01506
+    },
+    "M\u00fclheim-K\u00e4rlich": {
+        "city": "M\u00fclheim-K\u00e4rlich",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3873733,
+        "longitude": 7.495224099999999
+    },
+    "Babenhausen": {
+        "city": "Babenhausen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.9593613,
+        "longitude": 8.9588974
+    },
+    "Heidenheim": {
+        "city": "Heidenheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6785503,
+        "longitude": 10.1506915
+    },
+    "Rotterdam": {
+        "city": "Rotterdam",
+        "federal_state": "South Holland",
+        "country": "Netherlands",
+        "latitude": 51.9244201,
+        "longitude": 4.4777325
+    },
+    "Cremlingen": {
+        "city": "Cremlingen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2469715,
+        "longitude": 10.6517981
+    },
+    "H\u00f6rstel": {
+        "city": "H\u00f6rstel",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.30022,
+        "longitude": 7.587267400000001
+    },
+    "Rinteln": {
+        "city": "Rinteln",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2020461,
+        "longitude": 9.0759703
+    },
+    "G\u00fctersloh": {
+        "city": "G\u00fctersloh",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9032375,
+        "longitude": 8.385753500000002
+    },
+    "R\u00f6ttingen": {
+        "city": "R\u00f6ttingen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5122355,
+        "longitude": 9.9718105
+    },
+    "Bayreuth": {
+        "city": "Bayreuth",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9456399,
+        "longitude": 11.5713346
+    },
+    "Ajman": {
+        "city": "Ajman",
+        "federal_state": "Ajman",
+        "country": "United Arab Emirates",
+        "latitude": 25.4052165,
+        "longitude": 55.5136433
+    },
+    "Hagen": {
+        "city": "Hagen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3678219,
+        "longitude": 7.463638599999999
+    },
+    "R\u00f6tgesb\u00fcttel": {
+        "city": "R\u00f6tgesb\u00fcttel",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4158286,
+        "longitude": 10.5310676
+    },
+    "Parchim": {
+        "city": "Parchim",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.4250382,
+        "longitude": 11.8478394
+    },
+    "Emsdetten": {
+        "city": "Emsdetten",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.1684948,
+        "longitude": 7.526487099999999
+    },
+    "Randersacker": {
+        "city": "Randersacker",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7595602,
+        "longitude": 9.9808919
+    },
+    "Erding": {
+        "city": "Erding",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3058389,
+        "longitude": 11.9068811
+    },
+    "Kressbronn am Bodensee": {
+        "city": "Kressbronn am Bodensee",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.5968864,
+        "longitude": 9.5982209
+    },
+    "Essing": {
+        "city": "Essing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.9352388,
+        "longitude": 11.7886699
+    },
+    "Nesselwang": {
+        "city": "Nesselwang",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.6236401,
+        "longitude": 10.5011931
+    },
+    "Braunschweig": {
+        "city": "Braunschweig",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2677907,
+        "longitude": 10.5245656
+    },
+    "Zoetermeer": {
+        "city": "Zoetermeer",
+        "federal_state": "South Holland",
+        "country": "Netherlands",
+        "latitude": 52.060669,
+        "longitude": 4.494025
+    },
+    "Karlsfeld": {
+        "city": "Karlsfeld",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2290733,
+        "longitude": 11.4744386
+    },
+    "Nuenchritz": {
+        "city": "Nuenchritz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.3284374,
+        "longitude": 13.3844092
+    },
+    "Obergriesbach": {
+        "city": "Obergriesbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.4216984,
+        "longitude": 11.0648803
+    },
+    "Karlsruhe": {
+        "city": "Karlsruhe",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.0068901,
+        "longitude": 8.4036527
+    },
+    "Paderborn": {
+        "city": "Paderborn",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.7189205,
+        "longitude": 8.757509299999999
+    },
+    "Remchingen": {
+        "city": "Remchingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9517157,
+        "longitude": 8.5742128
+    },
+    "Gro\u00dfrosseln": {
+        "city": "Gro\u00dfrosseln",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.2061176,
+        "longitude": 6.8405708
+    },
+    "Neuhemsbach": {
+        "city": "Neuhemsbach",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.5234119,
+        "longitude": 7.922947499999999
+    },
+    "Nebra (Unstrut)": {
+        "city": "Nebra (Unstrut)",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.2844475,
+        "longitude": 11.5779416
+    },
+    "Herford": {
+        "city": "Herford",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.1180196,
+        "longitude": 8.677477200000002
+    },
+    "Lubrza": {
+        "city": "Lubrza",
+        "federal_state": "Lubusz Voivodeship",
+        "country": "Poland",
+        "latitude": 52.3046097,
+        "longitude": 15.4425975
+    },
+    "Kalanchak": {
+        "city": "Kalanchak",
+        "federal_state": "Kherson Oblast",
+        "country": "Ukraine",
+        "latitude": 46.2559467,
+        "longitude": 33.2989663
+    },
+    "Piotrk\u00f3w Trybunalski": {
+        "city": "Piotrk\u00f3w Trybunalski",
+        "federal_state": "\u0141\u00f3d\u017a Voivodeship",
+        "country": "Poland",
+        "latitude": 51.40517209999999,
+        "longitude": 19.7030244
+    },
+    "Neum\u00fcnster": {
+        "city": "Neum\u00fcnster",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.0729431,
+        "longitude": 9.9840158
+    },
+    "Hennef": {
+        "city": "Hennef",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7767469,
+        "longitude": 7.2801239
+    },
+    "W\u00f6rthsee": {
+        "city": "W\u00f6rthsee",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0851267,
+        "longitude": 11.198654
+    },
+    "Monheim am Rhein": {
+        "city": "Monheim am Rhein",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0919162,
+        "longitude": 6.8888672
+    },
+    "Klasztorna": {
+        "city": "Klasztorna",
+        "federal_state": "Wojew\u00f3dztwo pomorskie",
+        "country": "Poland",
+        "latitude": 54.3359673,
+        "longitude": 18.1935743
+    },
+    "Taraz": {
+        "city": "Taraz",
+        "federal_state": "Jambyl Region",
+        "country": "Kazakhstan",
+        "latitude": 42.8983715,
+        "longitude": 71.3979891
+    },
+    "Troisdorf": {
+        "city": "Troisdorf",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8177471,
+        "longitude": 7.1430246
+    },
+    "Henstedt-Ulzburg": {
+        "city": "Henstedt-Ulzburg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.7905005,
+        "longitude": 9.9804997
+    },
+    "Achberg": {
+        "city": "Achberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.615136,
+        "longitude": 9.7139974
+    },
+    "Bialystok": {
+        "city": "Bialystok",
+        "federal_state": "Podlaskie Voivodeship",
+        "country": "Poland",
+        "latitude": 53.13248859999999,
+        "longitude": 23.1688403
+    },
+    "K\u00f6nigsmoos": {
+        "city": "K\u00f6nigsmoos",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6639277,
+        "longitude": 11.2170665
+    },
+    "Warburg": {
+        "city": "Warburg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4899078,
+        "longitude": 9.14519
+    },
+    "Stade": {
+        "city": "Stade",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.59286179999999,
+        "longitude": 9.4709494
+    },
+    "Gro\u00dfbreitenbach": {
+        "city": "Gro\u00dfbreitenbach",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.5828831,
+        "longitude": 11.0101728
+    },
+    "Bad Driburg": {
+        "city": "Bad Driburg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.7328389,
+        "longitude": 9.021547700000001
+    },
+    "Sollstedt": {
+        "city": "Sollstedt",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 51.41327219999999,
+        "longitude": 10.5306954
+    },
+    "Esslingen am Neckar": {
+        "city": "Esslingen am Neckar",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.742178,
+        "longitude": 9.3144229
+    },
+    "Cloppenburg": {
+        "city": "Cloppenburg",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.8452899,
+        "longitude": 8.0472991
+    },
+    "Landshut": {
+        "city": "Landshut",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.5441917,
+        "longitude": 12.1468532
+    },
+    "Karst\u00e4dt": {
+        "city": "Karst\u00e4dt",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 53.1566123,
+        "longitude": 11.7460096
+    },
+    "Steinfurt": {
+        "city": "Steinfurt",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.1495113,
+        "longitude": 7.336075
+    },
+    "Gerolstein": {
+        "city": "Gerolstein",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.2241327,
+        "longitude": 6.6576116
+    },
+    "Astana": {
+        "city": "Astana",
+        "federal_state": "Astana",
+        "country": "Kazakhstan",
+        "latitude": 51.1655126,
+        "longitude": 71.4272222
+    },
+    "Dabrowa Gornicza": {
+        "city": "Dabrowa Gornicza",
+        "federal_state": "Silesian Voivodeship",
+        "country": "Poland",
+        "latitude": 50.3216897,
+        "longitude": 19.1949126
+    },
+    "Schwanewede": {
+        "city": "Schwanewede",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.2231011,
+        "longitude": 8.5890076
+    },
+    "Glendale": {
+        "city": "Glendale",
+        "federal_state": "California",
+        "country": "United States",
+        "latitude": 34.1463674,
+        "longitude": -118.2488703
+    },
+    "H\u00fcckelhoven": {
+        "city": "H\u00fcckelhoven",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.052354,
+        "longitude": 6.2234493
+    },
+    "Cheremkhovo": {
+        "city": "Cheremkhovo",
+        "federal_state": "Irkutsk Oblast",
+        "country": "Russia",
+        "latitude": 53.1400556,
+        "longitude": 103.0939762
+    },
+    "Schwarzheide": {
+        "city": "Schwarzheide",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 51.4772614,
+        "longitude": 13.8561913
+    },
+    "B\u00f6hlen": {
+        "city": "B\u00f6hlen",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.2056221,
+        "longitude": 12.3849333
+    },
+    "Pleinfeld": {
+        "city": "Pleinfeld",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.1031462,
+        "longitude": 10.9770574
+    },
+    "Hettenshausen": {
+        "city": "Hettenshausen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.5003395,
+        "longitude": 11.5049536
+    },
+    "B\u00fcnde": {
+        "city": "B\u00fcnde",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.1982222,
+        "longitude": 8.5832333
+    },
+    "Sankt Georgen im Schwarzwald": {
+        "city": "Sankt Georgen im Schwarzwald",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.1289227,
+        "longitude": 8.334847600000002
+    },
+    "Lichtenfels": {
+        "city": "Lichtenfels",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.1435387,
+        "longitude": 11.0555414
+    },
+    "Fulda": {
+        "city": "Fulda",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5558095,
+        "longitude": 9.6808449
+    },
+    "Riesa": {
+        "city": "Riesa",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.3117871,
+        "longitude": 13.2677004
+    },
+    "L\u00f6bau": {
+        "city": "L\u00f6bau",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.0962292,
+        "longitude": 14.6701781
+    },
+    "Waren": {
+        "city": "Waren",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.5161667,
+        "longitude": 12.6818562
+    },
+    "Hameln": {
+        "city": "Hameln",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.1042035,
+        "longitude": 9.3616
+    },
+    "Aichwald": {
+        "city": "Aichwald",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7617612,
+        "longitude": 9.388987499999999
+    },
+    "Eppelheim": {
+        "city": "Eppelheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4006279,
+        "longitude": 8.629916699999999
+    },
+    "Bad Berleburg": {
+        "city": "Bad Berleburg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0515666,
+        "longitude": 8.3926278
+    },
+    "Aalen": {
+        "city": "Aalen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8366887,
+        "longitude": 10.0971163
+    },
+    "Minsk": {
+        "city": "Minsk",
+        "federal_state": "Minsk Region",
+        "country": "Belarus",
+        "latitude": 53.9006011,
+        "longitude": 27.558972
+    },
+    "Oberding": {
+        "city": "Oberding",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3216584,
+        "longitude": 11.8463488
+    },
+    "Wermelskirchen": {
+        "city": "Wermelskirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1405229,
+        "longitude": 7.220952400000001
+    },
+    "Jindrichuv Hradec": {
+        "city": "Jindrichuv Hradec",
+        "federal_state": "South Bohemian Region",
+        "country": "Czechia",
+        "latitude": 49.1444823,
+        "longitude": 15.0061389
+    },
+    "Trossingen": {
+        "city": "Trossingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0756997,
+        "longitude": 8.6338475
+    },
+    "Stein": {
+        "city": "Stein",
+        "federal_state": "Limburg",
+        "country": "Netherlands",
+        "latitude": 50.9697756,
+        "longitude": 5.7586495
+    },
+    "Nizhny Novgorod": {
+        "city": "Nizhny Novgorod",
+        "federal_state": "Nizhny Novgorod Oblast",
+        "country": "Russia",
+        "latitude": 56.3268684,
+        "longitude": 44.0058793
+    },
+    "Murom": {
+        "city": "Murom",
+        "federal_state": "Vladimir Oblast",
+        "country": "Russia",
+        "latitude": 55.5746327,
+        "longitude": 42.0274611
+    },
+    "Bad W\u00f6rishofen": {
+        "city": "Bad W\u00f6rishofen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0051291,
+        "longitude": 10.5949358
+    },
+    "Twistringen": {
+        "city": "Twistringen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.796958,
+        "longitude": 8.6392413
+    },
+    "Langenselbold": {
+        "city": "Langenselbold",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1795159,
+        "longitude": 9.0400136
+    },
+    "Alsfeld": {
+        "city": "Alsfeld",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.750828,
+        "longitude": 9.2691602
+    },
+    "Limeshain": {
+        "city": "Limeshain",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.26908710000001,
+        "longitude": 8.995744499999999
+    },
+    "Helmstidde": {
+        "city": "Helmstidde",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2272927,
+        "longitude": 11.003723
+    },
+    "Schwalbach": {
+        "city": "Schwalbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1541504,
+        "longitude": 8.527172
+    },
+    "Alfeld": {
+        "city": "Alfeld",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.9830185,
+        "longitude": 9.8279123
+    },
+    "Mainz-Kastel": {
+        "city": "Mainz-Kastel",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.0192814,
+        "longitude": 8.2806368
+    },
+    "Forchheim": {
+        "city": "Forchheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7188374,
+        "longitude": 11.0679502
+    },
+    "Altenkirchen": {
+        "city": "Altenkirchen",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.6854009,
+        "longitude": 7.6359735
+    },
+    "Velden": {
+        "city": "Velden",
+        "federal_state": "Carinthia",
+        "country": "Austria",
+        "latitude": 46.6139483,
+        "longitude": 14.0417102
+    },
+    "Alzenau in Unterfranken": {
+        "city": "Alzenau in Unterfranken",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0894084,
+        "longitude": 9.058741399999999
+    },
+    "B\u00fchl": {
+        "city": "B\u00fchl",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6954722,
+        "longitude": 8.138060399999999
+    },
+    "Bad T\u00f6lz": {
+        "city": "Bad T\u00f6lz",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.7619244,
+        "longitude": 11.5661182
+    },
+    "Schkeuditz": {
+        "city": "Schkeuditz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.3938429,
+        "longitude": 12.2202665
+    },
+    "Poing": {
+        "city": "Poing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1716114,
+        "longitude": 11.8064153
+    },
+    "Tuttlingen": {
+        "city": "Tuttlingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.98233159999999,
+        "longitude": 8.8192095
+    },
+    "Semej": {
+        "city": "Semej",
+        "federal_state": "Abai Region",
+        "country": "Kazakhstan",
+        "latitude": 50.4233463,
+        "longitude": 80.250811
+    },
+    "Cuxhaven": {
+        "city": "Cuxhaven",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.859336,
+        "longitude": 8.6879057
+    },
+    "Kirchlauter": {
+        "city": "Kirchlauter",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0439024,
+        "longitude": 10.7179481
+    },
+    "Speyer": {
+        "city": "Speyer",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.3172765,
+        "longitude": 8.441217199999999
+    },
+    "Untersiemau": {
+        "city": "Untersiemau",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.19470099999999,
+        "longitude": 10.9702938
+    },
+    "S\u0142ubice": {
+        "city": "S\u0142ubice",
+        "federal_state": "Lubusz Voivodeship",
+        "country": "Poland",
+        "latitude": 52.351065,
+        "longitude": 14.5604649
+    },
+    "Pfalzgrafenweiler": {
+        "city": "Pfalzgrafenweiler",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5253322,
+        "longitude": 8.5648435
+    },
+    "Wetzlar": {
+        "city": "Wetzlar",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5635273,
+        "longitude": 8.5002611
+    },
+    "Reichenau": {
+        "city": "Reichenau",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.6949645,
+        "longitude": 9.063254599999999
+    },
+    "Scharbeutz": {
+        "city": "Scharbeutz",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.0224961,
+        "longitude": 10.7544158
+    },
+    "Kirchheim": {
+        "city": "Kirchheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6471033,
+        "longitude": 9.4519635
+    },
+    "Blankenfelde": {
+        "city": "Blankenfelde",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.3480918,
+        "longitude": 13.4036096
+    },
+    "G\u00fcstrow": {
+        "city": "G\u00fcstrow",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.8002129,
+        "longitude": 12.1745703
+    },
+    "Frechen": {
+        "city": "Frechen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.9134176,
+        "longitude": 6.813836299999999
+    },
+    "Vechta": {
+        "city": "Vechta",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.7337273,
+        "longitude": 8.292668599999999
+    },
+    "Leuna": {
+        "city": "Leuna",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.3235531,
+        "longitude": 12.023693
+    },
+    "Coswig": {
+        "city": "Coswig",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.130518,
+        "longitude": 13.5779228
+    },
+    "Kisslegg": {
+        "city": "Kisslegg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.789715,
+        "longitude": 9.885795199999999
+    },
+    "Ebern": {
+        "city": "Ebern",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0975298,
+        "longitude": 10.7957129
+    },
+    "Weilheim in Oberbayern": {
+        "city": "Weilheim in Oberbayern",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.84223670000001,
+        "longitude": 11.1427463
+    },
+    "Engen": {
+        "city": "Engen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.854144,
+        "longitude": 8.7737404
+    },
+    "Lippstadt": {
+        "city": "Lippstadt",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6712278,
+        "longitude": 8.3406481
+    },
+    "Konstanz": {
+        "city": "Konstanz",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.6779808,
+        "longitude": 9.1736741
+    },
+    "Saarbr\u00fccken": {
+        "city": "Saarbr\u00fccken",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.2381697,
+        "longitude": 6.997547
+    },
+    "Aichach": {
+        "city": "Aichach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.4588516,
+        "longitude": 11.1328472
+    },
+    "Heilbronn": {
+        "city": "Heilbronn",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1426929,
+        "longitude": 9.210879
+    },
+    "Sandersdorf": {
+        "city": "Sandersdorf",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.6273637,
+        "longitude": 12.2664165
+    },
+    "Luckenwalde": {
+        "city": "Luckenwalde",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.0917718,
+        "longitude": 13.1738324
+    },
+    "Inchenhofen": {
+        "city": "Inchenhofen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.5111011,
+        "longitude": 11.1153255
+    },
+    "Amberg": {
+        "city": "Amberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.4403198,
+        "longitude": 11.8633445
+    },
+    "Oberhausen": {
+        "city": "Oberhausen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4878429,
+        "longitude": 6.863308
+    },
+    "Waiblingen": {
+        "city": "Waiblingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8293519,
+        "longitude": 9.318573899999999
+    },
+    "Appen": {
+        "city": "Appen",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.6596465,
+        "longitude": 9.7424552
+    },
+    "Chambon-sur-Lignon": {
+        "city": "Chambon-sur-Lignon",
+        "federal_state": "Auvergne-Rh\u00f4ne-Alpes",
+        "country": "France",
+        "latitude": 45.0603774,
+        "longitude": 4.3024624
+    },
+    "Nettetal": {
+        "city": "Nettetal",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3081822,
+        "longitude": 6.2758904
+    },
+    "Kirchlinteln": {
+        "city": "Kirchlinteln",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.9402817,
+        "longitude": 9.3192626
+    },
+    "Ottobrunn": {
+        "city": "Ottobrunn",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0640543,
+        "longitude": 11.6652116
+    },
+    "Koblenz": {
+        "city": "Koblenz",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3569429,
+        "longitude": 7.5889959
+    },
+    "Kusel": {
+        "city": "Kusel",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.5383747,
+        "longitude": 7.406452799999999
+    },
+    "Massenbachhausen": {
+        "city": "Massenbachhausen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1756508,
+        "longitude": 9.0475002
+    },
+    "Rangsdorf": {
+        "city": "Rangsdorf",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.2918732,
+        "longitude": 13.4388453
+    },
+    "Hildesheim": {
+        "city": "Hildesheim",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.154778,
+        "longitude": 9.9579652
+    },
+    "Heidelberg": {
+        "city": "Heidelberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.3987524,
+        "longitude": 8.6724335
+    },
+    "Senden": {
+        "city": "Senden",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.8587626,
+        "longitude": 7.482635699999999
+    },
+    "Borna": {
+        "city": "Borna",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.1245977,
+        "longitude": 12.4923222
+    },
+    "Bad Saulgau": {
+        "city": "Bad Saulgau",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0147205,
+        "longitude": 9.5002
+    },
+    "Cham": {
+        "city": "Cham",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.2251155,
+        "longitude": 12.6631896
+    },
+    "Herne": {
+        "city": "Herne",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5368948,
+        "longitude": 7.200914699999999
+    },
+    "Lenningen": {
+        "city": "Lenningen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5553414,
+        "longitude": 9.4682927
+    },
+    "Niederstetten": {
+        "city": "Niederstetten",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4018369,
+        "longitude": 9.9194493
+    },
+    "Olpe": {
+        "city": "Olpe",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0295385,
+        "longitude": 7.8496836
+    },
+    "Heinersreuth": {
+        "city": "Heinersreuth",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9666436,
+        "longitude": 11.5307196
+    },
+    "Speichersdorf": {
+        "city": "Speichersdorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.8711746,
+        "longitude": 11.7756389
+    },
+    "Potsdam": {
+        "city": "Potsdam",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.3905689,
+        "longitude": 13.0644729
+    },
+    "Bergisch Gladbach": {
+        "city": "Bergisch Gladbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.98964789999999,
+        "longitude": 7.1229789
+    },
+    "Weingarten": {
+        "city": "Weingarten",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.8096019,
+        "longitude": 9.637983199999999
+    },
+    "Brandenburg an der Havel": {
+        "city": "Brandenburg an der Havel",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.4125287,
+        "longitude": 12.5316444
+    },
+    "Lengerich": {
+        "city": "Lengerich",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.1859797,
+        "longitude": 7.859405300000001
+    },
+    "Poppenhausen": {
+        "city": "Poppenhausen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.4883225,
+        "longitude": 9.8666408
+    },
+    "Villingen-Schwenningen": {
+        "city": "Villingen-Schwenningen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0594021,
+        "longitude": 8.4640869
+    },
+    "Friesoythe": {
+        "city": "Friesoythe",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.0244916,
+        "longitude": 7.8589508
+    },
+    "Lingen": {
+        "city": "Lingen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.5238099,
+        "longitude": 7.316981699999999
+    },
+    "Jena": {
+        "city": "Jena",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.927054,
+        "longitude": 11.5892372
+    },
+    "Garrel": {
+        "city": "Garrel",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.95310850000001,
+        "longitude": 8.0255988
+    },
+    "Herbrechtingen": {
+        "city": "Herbrechtingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6268982,
+        "longitude": 10.1731094
+    },
+    "Binzen": {
+        "city": "Binzen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.631386,
+        "longitude": 7.624437299999999
+    },
+    "Friedberg": {
+        "city": "Friedberg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3308526,
+        "longitude": 8.7510993
+    },
+    "Wuppertal": {
+        "city": "Wuppertal",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2562128,
+        "longitude": 7.150763599999999
+    },
+    "Ulm": {
+        "city": "Ulm",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.4010822,
+        "longitude": 9.987607599999999
+    },
+    "Markgr\u00f6ningen": {
+        "city": "Markgr\u00f6ningen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.903478,
+        "longitude": 9.086538899999999
+    },
+    "Dinslaken": {
+        "city": "Dinslaken",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5674264,
+        "longitude": 6.747534
+    },
+    "Ravensburg": {
+        "city": "Ravensburg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.78543579999999,
+        "longitude": 9.6103864
+    },
+    "Geyer": {
+        "city": "Geyer",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.6251691,
+        "longitude": 12.9238914
+    },
+    "Ilmenau": {
+        "city": "Ilmenau",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.6843502,
+        "longitude": 10.9254728
+    },
+    "Freital": {
+        "city": "Freital",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.0008667,
+        "longitude": 13.6512413
+    },
+    "Engelsbrand": {
+        "city": "Engelsbrand",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8316553,
+        "longitude": 8.676555
+    },
+    "Planegg": {
+        "city": "Planegg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.10587899999999,
+        "longitude": 11.4237179
+    },
+    "Zwingenberg": {
+        "city": "Zwingenberg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.7250007,
+        "longitude": 8.6109755
+    },
+    "Abensberg": {
+        "city": "Abensberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8177181,
+        "longitude": 11.8507867
+    },
+    "Wein\u00e4hr": {
+        "city": "Wein\u00e4hr",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.3205208,
+        "longitude": 7.844366099999999
+    },
+    "Wiefelstede": {
+        "city": "Wiefelstede",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.2549953,
+        "longitude": 8.1175835
+    },
+    "Fritzlar": {
+        "city": "Fritzlar",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.1330809,
+        "longitude": 9.2742641
+    },
+    "Rheda-Wiedenbr\u00fcck": {
+        "city": "Rheda-Wiedenbr\u00fcck",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.85460759999999,
+        "longitude": 8.2878002
+    },
+    "Rudolstadt": {
+        "city": "Rudolstadt",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.7182972,
+        "longitude": 11.3336548
+    },
+    "Neunkirchen-Seelscheid": {
+        "city": "Neunkirchen-Seelscheid",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8552827,
+        "longitude": 7.331858599999999
+    },
+    "Tittmoning": {
+        "city": "Tittmoning",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0581177,
+        "longitude": 12.7689081
+    },
+    "Kamen": {
+        "city": "Kamen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5882752,
+        "longitude": 7.6590458
+    },
+    "Haimhausen": {
+        "city": "Haimhausen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3162961,
+        "longitude": 11.552882
+    },
+    "Wei\u00dfwasser": {
+        "city": "Wei\u00dfwasser",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.50435179999999,
+        "longitude": 14.6345926
+    },
+    "Triberg": {
+        "city": "Triberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.1301564,
+        "longitude": 8.2324351
+    },
+    "Herrsching am Ammersee": {
+        "city": "Herrsching am Ammersee",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.9960149,
+        "longitude": 11.1744717
+    },
+    "Oberndorf am Neckar": {
+        "city": "Oberndorf am Neckar",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2946154,
+        "longitude": 8.5765805
+    },
+    "Schw\u00e4bisch Hall": {
+        "city": "Schw\u00e4bisch Hall",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1124645,
+        "longitude": 9.7372649
+    },
+    "Bad Windsheim": {
+        "city": "Bad Windsheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5031221,
+        "longitude": 10.4147863
+    },
+    "Selm": {
+        "city": "Selm",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.690296,
+        "longitude": 7.465432699999999
+    },
+    "Arnstadt": {
+        "city": "Arnstadt",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.8354931,
+        "longitude": 10.9478015
+    },
+    "Neu-Isenburg": {
+        "city": "Neu-Isenburg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.0545965,
+        "longitude": 8.6952164
+    },
+    "Buttst\u00e4dt": {
+        "city": "Buttst\u00e4dt",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 51.1215731,
+        "longitude": 11.4173032
+    },
+    "Kaltenkirchen": {
+        "city": "Kaltenkirchen",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.83061319999999,
+        "longitude": 9.958594999999999
+    },
+    "Neuenkirchen": {
+        "city": "Neuenkirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2394623,
+        "longitude": 7.3714554
+    },
+    "Eystrup": {
+        "city": "Eystrup",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.7794924,
+        "longitude": 9.2156101
+    },
+    "Kirn": {
+        "city": "Kirn",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.7896631,
+        "longitude": 7.4608937
+    },
+    "Neunkirchen": {
+        "city": "Neunkirchen",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.348932,
+        "longitude": 7.1780408
+    },
+    "Buchholz": {
+        "city": "Buchholz",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.3176971,
+        "longitude": 9.8694845
+    },
+    "Mittweida": {
+        "city": "Mittweida",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.9853149,
+        "longitude": 12.9740557
+    },
+    "Alt\u00f6tting": {
+        "city": "Alt\u00f6tting",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2236975,
+        "longitude": 12.6799462
+    },
+    "Saint Petersburg": {
+        "city": "Saint Petersburg",
+        "federal_state": "Saint Petersburg",
+        "country": "Russia",
+        "latitude": 59.9310584,
+        "longitude": 30.3609097
+    },
+    "Bad Emstal": {
+        "city": "Bad Emstal",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.24375089999999,
+        "longitude": 9.260553699999999
+    },
+    "Mandelbachtal": {
+        "city": "Mandelbachtal",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.2025041,
+        "longitude": 7.1732874
+    },
+    "N\u00fcnchritz": {
+        "city": "N\u00fcnchritz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.2992981,
+        "longitude": 13.3899305
+    },
+    "Oelde": {
+        "city": "Oelde",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.8297412,
+        "longitude": 8.1463962
+    },
+    "Bergheim": {
+        "city": "Bergheim",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.9451945,
+        "longitude": 6.6555022
+    },
+    "London": {
+        "city": "London",
+        "federal_state": "England",
+        "country": "United Kingdom",
+        "latitude": 51.5072178,
+        "longitude": -0.1275862
+    },
+    "Mainz-Kostheim": {
+        "city": "Mainz-Kostheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.00764600000001,
+        "longitude": 8.3003089
+    },
+    "Niedenstein": {
+        "city": "Niedenstein",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.234099,
+        "longitude": 9.3136558
+    },
+    "Kaliningrad": {
+        "city": "Kaliningrad",
+        "federal_state": "Kaliningrad Oblast",
+        "country": "Russia",
+        "latitude": 54.7104264,
+        "longitude": 20.4522144
+    },
+    "Hilchenbach": {
+        "city": "Hilchenbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.9963747,
+        "longitude": 8.1127106
+    },
+    "Neu Wulmstorf": {
+        "city": "Neu Wulmstorf",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.46413709999999,
+        "longitude": 9.7911544
+    },
+    "Bielefeld": {
+        "city": "Bielefeld",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.02209240000001,
+        "longitude": 8.5278765
+    },
+    "Zorneding": {
+        "city": "Zorneding",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0869599,
+        "longitude": 11.8271085
+    },
+    "Eggenstein-Leopoldshafen": {
+        "city": "Eggenstein-Leopoldshafen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.0859332,
+        "longitude": 8.3992296
+    },
+    "Rosengarten": {
+        "city": "Rosengarten",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.4409297,
+        "longitude": 9.917670399999999
+    },
+    "Schwaig": {
+        "city": "Schwaig",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.4718884,
+        "longitude": 11.199634
+    },
+    "Bingen": {
+        "city": "Bingen",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.9667396,
+        "longitude": 7.904596000000001
+    },
+    "Tettnang": {
+        "city": "Tettnang",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.6681722,
+        "longitude": 9.5916036
+    },
+    "Wismar": {
+        "city": "Wismar",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.8879706,
+        "longitude": 11.4621371
+    },
+    "Ahaus": {
+        "city": "Ahaus",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.0825322,
+        "longitude": 7.015005700000001
+    },
+    "Eppelborn": {
+        "city": "Eppelborn",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.4059716,
+        "longitude": 6.9661426
+    },
+    "D\u00f6rverden": {
+        "city": "D\u00f6rverden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.8469714,
+        "longitude": 9.227554300000001
+    },
+    "Bat yam": {
+        "city": "Bat yam",
+        "federal_state": "Center District",
+        "country": "Israel",
+        "latitude": 32.0151439,
+        "longitude": 34.752885
+    },
+    "Rodewisch": {
+        "city": "Rodewisch",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.53087300000001,
+        "longitude": 12.4048621
+    },
+    "Schrozberg": {
+        "city": "Schrozberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.3454398,
+        "longitude": 9.981387699999999
+    },
+    "Hoyerswerda": {
+        "city": "Hoyerswerda",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.4388605,
+        "longitude": 14.2536419
+    },
+    "Aschersleben": {
+        "city": "Aschersleben",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.7591297,
+        "longitude": 11.4619062
+    },
+    "Teterow": {
+        "city": "Teterow",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.7756199,
+        "longitude": 12.573999
+    },
+    "Gera": {
+        "city": "Gera",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.8850706,
+        "longitude": 12.0807203
+    },
+    "Backnang": {
+        "city": "Backnang",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9471455,
+        "longitude": 9.434181299999999
+    },
+    "Kamenskoe": {
+        "city": "Kamenskoe",
+        "federal_state": "Dnipropetrovsk Oblast",
+        "country": "Ukraine",
+        "latitude": 48.516033,
+        "longitude": 34.6128617
+    },
+    "Kirchlengern": {
+        "city": "Kirchlengern",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2015719,
+        "longitude": 8.6379173
+    },
+    "Delitzsch": {
+        "city": "Delitzsch",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.525574,
+        "longitude": 12.3380993
+    },
+    "Walldorf": {
+        "city": "Walldorf",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.3063689,
+        "longitude": 8.6427693
+    },
+    "K\u00f6nigstein im Taunus": {
+        "city": "K\u00f6nigstein im Taunus",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.17874,
+        "longitude": 8.47191
+    },
+    "Br\u00fchl": {
+        "city": "Br\u00fchl",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.8267554,
+        "longitude": 6.8987865
+    },
+    "Neubrandenburg": {
+        "city": "Neubrandenburg",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.5678292,
+        "longitude": 13.2779269
+    },
+    "Viernheim": {
+        "city": "Viernheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.5412437,
+        "longitude": 8.5784877
+    },
+    "Fernwald": {
+        "city": "Fernwald",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.5504663,
+        "longitude": 8.779645799999999
+    },
+    "H\u00f6sbach": {
+        "city": "H\u00f6sbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0029373,
+        "longitude": 9.200952899999999
+    },
+    "Kemnath": {
+        "city": "Kemnath",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.869025,
+        "longitude": 11.8888884
+    },
+    "Neumarkt in der Oberpfalz": {
+        "city": "Neumarkt in der Oberpfalz",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.2823023,
+        "longitude": 11.4570677
+    },
+    "Kamenz": {
+        "city": "Kamenz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.2749068,
+        "longitude": 14.1024881
+    },
+    "Hattgenstein": {
+        "city": "Hattgenstein",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.6984445,
+        "longitude": 7.1583095
+    },
+    "Neukirchen-Vluyn": {
+        "city": "Neukirchen-Vluyn",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4423827,
+        "longitude": 6.5537259
+    },
+    "Wolnzach": {
+        "city": "Wolnzach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6041847,
+        "longitude": 11.6290876
+    },
+    "Hofkirchen": {
+        "city": "Hofkirchen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6780718,
+        "longitude": 13.1181997
+    },
+    "Moscow": {
+        "city": "Moscow",
+        "federal_state": "Moscow",
+        "country": "Russia",
+        "latitude": 55.7568721,
+        "longitude": 37.6150527
+    },
+    "Nast\u00e4tten": {
+        "city": "Nast\u00e4tten",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.19815699999999,
+        "longitude": 7.8553693
+    },
+    "Zerbst": {
+        "city": "Zerbst",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.9669481,
+        "longitude": 12.0846211
+    },
+    "Grafenau": {
+        "city": "Grafenau",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8592113,
+        "longitude": 13.3946444
+    },
+    "Albstadt": {
+        "city": "Albstadt",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2137038,
+        "longitude": 9.0234259
+    },
+    "Postbauer-Heng": {
+        "city": "Postbauer-Heng",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.3031242,
+        "longitude": 11.3555156
+    },
+    "Neutraubling": {
+        "city": "Neutraubling",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.9854354,
+        "longitude": 12.1959296
+    },
+    "Meinersen": {
+        "city": "Meinersen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4722684,
+        "longitude": 10.3600315
+    },
+    "Espenau": {
+        "city": "Espenau",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.398444,
+        "longitude": 9.474013399999999
+    },
+    "Grevenbroich": {
+        "city": "Grevenbroich",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0902094,
+        "longitude": 6.585863000000001
+    },
+    "Deggendorf": {
+        "city": "Deggendorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8414126,
+        "longitude": 12.9572212
+    },
+    "Niedereschach": {
+        "city": "Niedereschach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.12985159999999,
+        "longitude": 8.5281883
+    },
+    "Donauw\u00f6rth": {
+        "city": "Donauw\u00f6rth",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.7185826,
+        "longitude": 10.7778041
+    },
+    "Haldensleben": {
+        "city": "Haldensleben",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 52.2827293,
+        "longitude": 11.4170506
+    },
+    "Illingen": {
+        "city": "Illingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9562888,
+        "longitude": 8.9256999
+    },
+    "Norderney": {
+        "city": "Norderney",
+        "federal_state": "Niedersachsen",
+        "country": "Germany",
+        "latitude": 53.71682699999999,
+        "longitude": 7.281028199999999
+    },
+    "Itzehoe": {
+        "city": "Itzehoe",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.9317752,
+        "longitude": 9.5051475
+    },
+    "M\u00fcnchhausen": {
+        "city": "M\u00fcnchhausen",
+        "federal_state": "Opole Voivodeship",
+        "country": "Poland",
+        "latitude": 50.6970899,
+        "longitude": 18.3143994
+    },
+    "Oberrot": {
+        "city": "Oberrot",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.01378920000001,
+        "longitude": 9.668828
+    },
+    "Weilheim": {
+        "city": "Weilheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.84223670000001,
+        "longitude": 11.1427463
+    },
+    "Marsberg": {
+        "city": "Marsberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4575281,
+        "longitude": 8.8474574
+    },
+    "Beckingen": {
+        "city": "Beckingen",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.3920816,
+        "longitude": 6.7022422
+    },
+    "Lemgo": {
+        "city": "Lemgo",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.0266732,
+        "longitude": 8.9018625
+    },
+    "Werlte": {
+        "city": "Werlte",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.85252089999999,
+        "longitude": 7.671886000000001
+    },
+    "Pfaffenhofen": {
+        "city": "Pfaffenhofen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.5274509,
+        "longitude": 11.5124179
+    },
+    "Waldenburg": {
+        "city": "Waldenburg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1832843,
+        "longitude": 9.6385802
+    },
+    "Schieder-Schwalenberg": {
+        "city": "Schieder-Schwalenberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.913736,
+        "longitude": 9.1531937
+    },
+    "Nordhausen": {
+        "city": "Nordhausen",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 51.4983551,
+        "longitude": 10.7931122
+    },
+    "Dormagen": {
+        "city": "Dormagen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.09368509999999,
+        "longitude": 6.828911199999999
+    },
+    "Du\u00dflingen": {
+        "city": "Du\u00dflingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.4515275,
+        "longitude": 9.0606289
+    },
+    "Ottersweier": {
+        "city": "Ottersweier",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6712971,
+        "longitude": 8.1154946
+    },
+    "Voerde": {
+        "city": "Voerde",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6005212,
+        "longitude": 6.6544111
+    },
+    "Forst": {
+        "city": "Forst",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 51.7445739,
+        "longitude": 14.6451394
+    },
+    "Seesen": {
+        "city": "Seesen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.8914818,
+        "longitude": 10.1798261
+    },
+    "Baesweiler": {
+        "city": "Baesweiler",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.90633649999999,
+        "longitude": 6.1825328
+    },
+    "Nagold": {
+        "city": "Nagold",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5474083,
+        "longitude": 8.7234746
+    },
+    "Kleinostheim": {
+        "city": "Kleinostheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0042304,
+        "longitude": 9.0658932
+    },
+    "L\u00f6ningen": {
+        "city": "L\u00f6ningen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.736526,
+        "longitude": 7.7587838
+    },
+    "Unterschneidheim": {
+        "city": "Unterschneidheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9419228,
+        "longitude": 10.3657044
+    },
+    "Sand am Main": {
+        "city": "Sand am Main",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9873929,
+        "longitude": 10.5881804
+    },
+    "Wangen im Allg\u00e4u": {
+        "city": "Wangen im Allg\u00e4u",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.6874999,
+        "longitude": 9.8318005
+    },
+    "Maasbree": {
+        "city": "Maasbree",
+        "federal_state": "Limburg",
+        "country": "Netherlands",
+        "latitude": 51.3584896,
+        "longitude": 6.0503002
+    },
+    "Homburg": {
+        "city": "Homburg",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.3295827,
+        "longitude": 7.3398428
+    },
+    "Bad Abbach": {
+        "city": "Bad Abbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.9373377,
+        "longitude": 12.0462593
+    },
+    "Birkenfeld": {
+        "city": "Birkenfeld",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.6474625,
+        "longitude": 7.1650865
+    },
+    "Phuket": {
+        "city": "Phuket",
+        "federal_state": "Phuket",
+        "country": "Thailand",
+        "latitude": 7.8804479,
+        "longitude": 98.3922504
+    },
+    "Almaty": {
+        "city": "Almaty",
+        "federal_state": "Almaty Region",
+        "country": "Kazakhstan",
+        "latitude": 43.2379761,
+        "longitude": 76.8828618
+    },
+    "Ingolstadt": {
+        "city": "Ingolstadt",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.7667395,
+        "longitude": 11.4226498
+    },
+    "B\u00f6blingen": {
+        "city": "B\u00f6blingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6845486,
+        "longitude": 9.0073513
+    },
+    "Adelebsen": {
+        "city": "Adelebsen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.5803205,
+        "longitude": 9.756811899999999
+    },
+    "Sigmarszell": {
+        "city": "Sigmarszell",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.58917719999999,
+        "longitude": 9.7625283
+    },
+    "Neuh\u00e4usel": {
+        "city": "Neuh\u00e4usel",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.385166,
+        "longitude": 7.7111095
+    },
+    "Lehre": {
+        "city": "Lehre",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.3268575,
+        "longitude": 10.669431
+    },
+    "Herzogenaurach": {
+        "city": "Herzogenaurach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5682987,
+        "longitude": 10.8828577
+    },
+    "M\u00f6mlingen": {
+        "city": "M\u00f6mlingen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.85456569999999,
+        "longitude": 9.0864324
+    },
+    "Willich": {
+        "city": "Willich",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2654601,
+        "longitude": 6.544265900000001
+    },
+    "Dettelbach": {
+        "city": "Dettelbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.8037832,
+        "longitude": 10.165725
+    },
+    "Michelstadt": {
+        "city": "Michelstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.6799613,
+        "longitude": 9.0041618
+    },
+    "Niesky": {
+        "city": "Niesky",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.2931501,
+        "longitude": 14.8311719
+    },
+    "Neuwied": {
+        "city": "Neuwied",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.4361866,
+        "longitude": 7.4664546
+    },
+    "Freren": {
+        "city": "Freren",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4871717,
+        "longitude": 7.543141400000001
+    },
+    "Nienburg/Weser": {
+        "city": "Nienburg/Weser",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.6380924,
+        "longitude": 9.2084155
+    },
+    "Heimbach": {
+        "city": "Heimbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.6333925,
+        "longitude": 6.4807774
+    },
+    "Euerbach": {
+        "city": "Euerbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0619005,
+        "longitude": 10.1370377
+    },
+    "Waldkraiburg": {
+        "city": "Waldkraiburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2086516,
+        "longitude": 12.4016363
+    },
+    "Saarlouis": {
+        "city": "Saarlouis",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.3123607,
+        "longitude": 6.7506976
+    },
+    "Litzendorf": {
+        "city": "Litzendorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9121724,
+        "longitude": 11.0088087
+    },
+    "Fr\u00f6ndenberg": {
+        "city": "Fr\u00f6ndenberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.4731633,
+        "longitude": 7.7672578
+    },
+    "\u00dcberlingen": {
+        "city": "\u00dcberlingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.7686035,
+        "longitude": 9.159467099999999
+    },
+    "Bad Soden am Taunus": {
+        "city": "Bad Soden am Taunus",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1469769,
+        "longitude": 8.4988608
+    },
+    "Lauf": {
+        "city": "Lauf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5110483,
+        "longitude": 11.2780245
+    },
+    "Anklam": {
+        "city": "Anklam",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.8502906,
+        "longitude": 13.6959731
+    },
+    "Eislingen": {
+        "city": "Eislingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7023247,
+        "longitude": 9.7120357
+    },
+    "Hachenburg": {
+        "city": "Hachenburg",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.6615123,
+        "longitude": 7.821938400000001
+    },
+    "Pfinztal": {
+        "city": "Pfinztal",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.0036162,
+        "longitude": 8.5268217
+    },
+    "Szczecin": {
+        "city": "Szczecin",
+        "federal_state": "West Pomeranian Voivodeship",
+        "country": "Poland",
+        "latitude": 53.4285438,
+        "longitude": 14.5528116
+    },
+    "Leutkirch im Allg\u00e4u": {
+        "city": "Leutkirch im Allg\u00e4u",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.826741,
+        "longitude": 10.0213851
+    },
+    "Neus\u00e4\u00df": {
+        "city": "Neus\u00e4\u00df",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3937841,
+        "longitude": 10.8230352
+    },
+    "M\u00fchlhausen": {
+        "city": "M\u00fchlhausen",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 51.2106556,
+        "longitude": 10.4659026
+    },
+    "Annaberg-Buchholz": {
+        "city": "Annaberg-Buchholz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.5851268,
+        "longitude": 13.0149313
+    },
+    "Blumberg": {
+        "city": "Blumberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.8392288,
+        "longitude": 8.534742699999999
+    },
+    "Retzstadt": {
+        "city": "Retzstadt",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9110697,
+        "longitude": 9.8829277
+    },
+    "Kolbermoor": {
+        "city": "Kolbermoor",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.8439513,
+        "longitude": 12.0578731
+    },
+    "Donaueschingen": {
+        "city": "Donaueschingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.95215229999999,
+        "longitude": 8.4979461
+    },
+    "Gdynia": {
+        "city": "Gdynia",
+        "federal_state": "Pomeranian Voivodeship",
+        "country": "Poland",
+        "latitude": 54.518352,
+        "longitude": 18.5291932
+    },
+    "Rendsburg": {
+        "city": "Rendsburg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.3080869,
+        "longitude": 9.660699300000001
+    },
+    "Namur": {
+        "city": "Namur",
+        "federal_state": "Wallonia",
+        "country": "Belgium",
+        "latitude": 50.46493340000001,
+        "longitude": 4.864973099999999
+    },
+    "Dingolfing": {
+        "city": "Dingolfing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6289294,
+        "longitude": 12.4982109
+    },
+    "Dinkelscherben": {
+        "city": "Dinkelscherben",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3477139,
+        "longitude": 10.5906677
+    },
+    "Neuburg an der Donau": {
+        "city": "Neuburg an der Donau",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.7302674,
+        "longitude": 11.1887693
+    },
+    "Halle (Saale)": {
+        "city": "Halle (Saale)",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.49535669999999,
+        "longitude": 11.9662371
+    },
+    "Sundern": {
+        "city": "Sundern",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3254213,
+        "longitude": 8.0035148
+    },
+    "T\u00fcbingen": {
+        "city": "T\u00fcbingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5216364,
+        "longitude": 9.0576448
+    },
+    "Sexau": {
+        "city": "Sexau",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0933712,
+        "longitude": 7.8979842
+    },
+    "Vaihingen an der Enz": {
+        "city": "Vaihingen an der Enz",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9334357,
+        "longitude": 8.961208000000001
+    },
+    "Steinbach": {
+        "city": "Steinbach",
+        "federal_state": "Manitoba",
+        "country": "Canada",
+        "latitude": 49.5303097,
+        "longitude": -96.69120509999999
+    },
+    "Imsbach": {
+        "city": "Imsbach",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.5823776,
+        "longitude": 7.8793658
+    },
+    "Harsewinkel": {
+        "city": "Harsewinkel",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.96428179999999,
+        "longitude": 8.2333679
+    },
+    "Bad Feilnbach": {
+        "city": "Bad Feilnbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.773289,
+        "longitude": 12.0094677
+    },
+    "Marne": {
+        "city": "Marne",
+        "federal_state": "Grand Est",
+        "country": "France",
+        "latitude": 49.128754,
+        "longitude": 4.1475445
+    },
+    "H\u00fcckeswagen": {
+        "city": "H\u00fcckeswagen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1490386,
+        "longitude": 7.3293896
+    },
+    "Kappelrodeck": {
+        "city": "Kappelrodeck",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5915136,
+        "longitude": 8.1172495
+    },
+    "Ehrensberg": {
+        "city": "Ehrensberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.9009732,
+        "longitude": 9.8087986
+    },
+    "Dettenhausen": {
+        "city": "Dettenhausen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6075058,
+        "longitude": 9.1005482
+    },
+    "Wittstock": {
+        "city": "Wittstock",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 53.1631855,
+        "longitude": 12.4859969
+    },
+    "Vellberg": {
+        "city": "Vellberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.0855249,
+        "longitude": 9.8754548
+    },
+    "Bad Vilbel": {
+        "city": "Bad Vilbel",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1781612,
+        "longitude": 8.7356354
+    },
+    "Kluse": {
+        "city": "Kluse",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.9383496,
+        "longitude": 7.344239600000001
+    },
+    "Hockenheim": {
+        "city": "Hockenheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.31955199999999,
+        "longitude": 8.5498581
+    },
+    "Runkel": {
+        "city": "Runkel",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.4053547,
+        "longitude": 8.153041199999999
+    },
+    "W\u0142odawa": {
+        "city": "W\u0142odawa",
+        "federal_state": "Lublin Voivodeship",
+        "country": "Poland",
+        "latitude": 51.55178,
+        "longitude": 23.55434
+    },
+    "Kelkheim": {
+        "city": "Kelkheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.13489000000001,
+        "longitude": 8.45121
+    },
+    "Viereth-Trunstadt": {
+        "city": "Viereth-Trunstadt",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9265857,
+        "longitude": 10.7511019
+    },
+    "Nellingen": {
+        "city": "Nellingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5431763,
+        "longitude": 9.7940024
+    },
+    "F\u00fcrstenfeldbruck": {
+        "city": "F\u00fcrstenfeldbruck",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1739373,
+        "longitude": 11.2430079
+    },
+    "Glandorf": {
+        "city": "Glandorf",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.08582080000001,
+        "longitude": 8.0003193
+    },
+    "Nisterberg": {
+        "city": "Nisterberg",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.6804627,
+        "longitude": 7.977456900000001
+    },
+    "Landsberg am Lech": {
+        "city": "Landsberg am Lech",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.0464144,
+        "longitude": 10.8718015
+    },
+    "Bamberg": {
+        "city": "Bamberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.8988135,
+        "longitude": 10.9027636
+    },
+    "Kernen im Remstal": {
+        "city": "Kernen im Remstal",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.80835279999999,
+        "longitude": 9.318070299999999
+    },
+    "Nottuln": {
+        "city": "Nottuln",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9296512,
+        "longitude": 7.359776699999999
+    },
+    "Hechingen": {
+        "city": "Hechingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.3538888,
+        "longitude": 8.9613627
+    },
+    "Marktredwitz": {
+        "city": "Marktredwitz",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.00336069999999,
+        "longitude": 12.0874601
+    },
+    "Beilstein": {
+        "city": "Beilstein",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.11042399999999,
+        "longitude": 7.239158900000001
+    },
+    "Heusweiler": {
+        "city": "Heusweiler",
+        "federal_state": "Saarland",
+        "country": "Germany",
+        "latitude": 49.3383628,
+        "longitude": 6.9286366
+    },
+    "Aidlingen": {
+        "city": "Aidlingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6790564,
+        "longitude": 8.8957465
+    },
+    "Elze": {
+        "city": "Elze",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.1211249,
+        "longitude": 9.7381294
+    },
+    "Borken": {
+        "city": "Borken",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.8488761,
+        "longitude": 6.859919499999999
+    },
+    "Bernau": {
+        "city": "Bernau",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.6874845,
+        "longitude": 13.5672765
+    },
+    "Pyrbaum": {
+        "city": "Pyrbaum",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.29665319999999,
+        "longitude": 11.2849804
+    },
+    "Niederstotzingen": {
+        "city": "Niederstotzingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5409435,
+        "longitude": 10.2349893
+    },
+    "Porta Westfalica": {
+        "city": "Porta Westfalica",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2467107,
+        "longitude": 8.9123804
+    },
+    "W\u00fclfrath": {
+        "city": "W\u00fclfrath",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.28028399999999,
+        "longitude": 7.034960799999999
+    },
+    "Volgodonsk": {
+        "city": "Volgodonsk",
+        "federal_state": "Rostov Oblast",
+        "country": "Russia",
+        "latitude": 47.5004928,
+        "longitude": 42.2027662
+    },
+    "M\u00fcllrose": {
+        "city": "M\u00fcllrose",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.2459307,
+        "longitude": 14.4169522
+    },
+    "Burg": {
+        "city": "Burg",
+        "federal_state": "Bayern",
+        "country": "Germany",
+        "latitude": 48.6140582,
+        "longitude": 11.8864548
+    },
+    "H\u00fcttisheim": {
+        "city": "H\u00fcttisheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2794694,
+        "longitude": 9.941986
+    },
+    "K\u00f6nigslutter": {
+        "city": "K\u00f6nigslutter",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2245661,
+        "longitude": 10.7958402
+    },
+    "Melsungen": {
+        "city": "Melsungen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.1276976,
+        "longitude": 9.549567699999999
+    },
+    "Bitterfeld-Wolfen": {
+        "city": "Bitterfeld-Wolfen",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.6819131,
+        "longitude": 12.2615422
+    },
+    "Uhldingen-M\u00fchlhofen": {
+        "city": "Uhldingen-M\u00fchlhofen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.7348464,
+        "longitude": 9.2425718
+    },
+    "Grafenhausen": {
+        "city": "Grafenhausen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.7757006,
+        "longitude": 8.2552073
+    },
+    "Freudenstadt": {
+        "city": "Freudenstadt",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.4644796,
+        "longitude": 8.4179988
+    },
+    "Mengerskirchen": {
+        "city": "Mengerskirchen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.564593,
+        "longitude": 8.154188399999999
+    },
+    "Heppenheim": {
+        "city": "Heppenheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.6430169,
+        "longitude": 8.6675419
+    },
+    "N\u00fcrtingen": {
+        "city": "N\u00fcrtingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.624421,
+        "longitude": 9.3469069
+    },
+    "Rothenburg ob der Tauber": {
+        "city": "Rothenburg ob der Tauber",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.3801834,
+        "longitude": 10.1867388
+    },
+    "Sasbach": {
+        "city": "Sasbach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.6391462,
+        "longitude": 8.0918589
+    },
+    "Malchin": {
+        "city": "Malchin",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.7387148,
+        "longitude": 12.7666597
+    },
+    "Schm\u00f6lln": {
+        "city": "Schm\u00f6lln",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.89543399999999,
+        "longitude": 12.3550615
+    },
+    "Lengenfeld": {
+        "city": "Lengenfeld",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.57012520000001,
+        "longitude": 12.3709924
+    },
+    "Miesbach": {
+        "city": "Miesbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.7904174,
+        "longitude": 11.8318549
+    },
+    "Holzminden": {
+        "city": "Holzminden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.8274802,
+        "longitude": 9.458815999999999
+    },
+    "Gr\u00f6benzell": {
+        "city": "Gr\u00f6benzell",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.1932834,
+        "longitude": 11.3752077
+    },
+    "Mettmann": {
+        "city": "Mettmann",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2481156,
+        "longitude": 6.975103
+    },
+    "Eching": {
+        "city": "Eching",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2985765,
+        "longitude": 11.6264352
+    },
+    "Manching": {
+        "city": "Manching",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.7175309,
+        "longitude": 11.4940581
+    },
+    "Karben": {
+        "city": "Karben",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.2303566,
+        "longitude": 8.7736533
+    },
+    "Mainaschaff": {
+        "city": "Mainaschaff",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.9774515,
+        "longitude": 9.087190699999999
+    },
+    "Baden-Baden": {
+        "city": "Baden-Baden",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.76564,
+        "longitude": 8.228524199999999
+    },
+    "Dubai": {
+        "city": "Dubai",
+        "federal_state": "Dubai",
+        "country": "United Arab Emirates",
+        "latitude": 25.2048493,
+        "longitude": 55.2707828
+    },
+    "Miltenberg": {
+        "city": "Miltenberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7019294,
+        "longitude": 9.2559213
+    },
+    "Garbsen": {
+        "city": "Garbsen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4272509,
+        "longitude": 9.5955146
+    },
+    "Kirchheim bei M\u00fcnchen": {
+        "city": "Kirchheim bei M\u00fcnchen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.175708,
+        "longitude": 11.7558223
+    },
+    "Prenzlau": {
+        "city": "Prenzlau",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 53.3168438,
+        "longitude": 13.8623758
+    },
+    "Odelzhausen": {
+        "city": "Odelzhausen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3077214,
+        "longitude": 11.200111
+    },
+    "Urbach": {
+        "city": "Urbach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.81237609999999,
+        "longitude": 9.575838899999999
+    },
+    "Sch\u00f6nwald": {
+        "city": "Sch\u00f6nwald",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.10411000000001,
+        "longitude": 8.2048757
+    },
+    "Altlandsberg": {
+        "city": "Altlandsberg",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.5641091,
+        "longitude": 13.7269051
+    },
+    "Hopfen am See": {
+        "city": "Hopfen am See",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.6086782,
+        "longitude": 10.6826022
+    },
+    "Schw\u00e4bisch Gm\u00fcnd": {
+        "city": "Schw\u00e4bisch Gm\u00fcnd",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7994019,
+        "longitude": 9.8045704
+    },
+    "Boppard": {
+        "city": "Boppard",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.2311996,
+        "longitude": 7.58853
+    },
+    "Wertheim": {
+        "city": "Wertheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.7586035,
+        "longitude": 9.512851099999999
+    },
+    "Sindelfingen": {
+        "city": "Sindelfingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.7074558,
+        "longitude": 9.0044053
+    },
+    "Pirmasens": {
+        "city": "Pirmasens",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.20155500000001,
+        "longitude": 7.600216100000001
+    },
+    "Rosbach vor der H\u00f6he": {
+        "city": "Rosbach vor der H\u00f6he",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3007398,
+        "longitude": 8.692732699999999
+    },
+    "Neuenrade": {
+        "city": "Neuenrade",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2847342,
+        "longitude": 7.795036899999999
+    },
+    "Hagenow": {
+        "city": "Hagenow",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.427648,
+        "longitude": 11.1900699
+    },
+    "Kaufbeuren": {
+        "city": "Kaufbeuren",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.8830175,
+        "longitude": 10.625966
+    },
+    "Osterhofen": {
+        "city": "Osterhofen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6998836,
+        "longitude": 13.0228558
+    },
+    "Rotenburg an der Fulda": {
+        "city": "Rotenburg an der Fulda",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.9963455,
+        "longitude": 9.7249534
+    },
+    "Hofheim am Taunus": {
+        "city": "Hofheim am Taunus",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.0841829,
+        "longitude": 8.4432295
+    },
+    "Krumbach": {
+        "city": "Krumbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2403108,
+        "longitude": 10.3750892
+    },
+    "Bretten": {
+        "city": "Bretten",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.0362907,
+        "longitude": 8.7010592
+    },
+    "Langenbach": {
+        "city": "Langenbach",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.433977,
+        "longitude": 11.843165
+    },
+    "Stadecken-Elsheim": {
+        "city": "Stadecken-Elsheim",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.9131362,
+        "longitude": 8.1288697
+    },
+    "Oerlinghausen": {
+        "city": "Oerlinghausen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.951983,
+        "longitude": 8.663472300000002
+    },
+    "G\u00f6ttingen": {
+        "city": "G\u00f6ttingen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.54128040000001,
+        "longitude": 9.915803499999999
+    },
+    "Lampertheim": {
+        "city": "Lampertheim",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.59972670000001,
+        "longitude": 8.466599
+    },
+    "Steinau an der Stra\u00dfe": {
+        "city": "Steinau an der Stra\u00dfe",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3166763,
+        "longitude": 9.4512418
+    },
+    "Wolfhagen": {
+        "city": "Wolfhagen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.3264673,
+        "longitude": 9.1710827
+    },
+    "Plauen": {
+        "city": "Plauen",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.4976133,
+        "longitude": 12.1368679
+    },
+    "Sulzbach": {
+        "city": "Sulzbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1336435,
+        "longitude": 8.522376
+    },
+    "Herzberg": {
+        "city": "Herzberg",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.6507794,
+        "longitude": 10.3364205
+    },
+    "Biberach": {
+        "city": "Biberach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0951473,
+        "longitude": 9.7901525
+    },
+    "Schmallenberg": {
+        "city": "Schmallenberg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1526332,
+        "longitude": 8.290790099999999
+    },
+    "Gelsenkirchen": {
+        "city": "Gelsenkirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5187651,
+        "longitude": 7.0838411
+    },
+    "Verden": {
+        "city": "Verden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.924648,
+        "longitude": 9.2280756
+    },
+    "Salzgitter": {
+        "city": "Salzgitter",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.13786589999999,
+        "longitude": 10.3899126
+    },
+    "Furtwangen": {
+        "city": "Furtwangen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0501442,
+        "longitude": 8.2014192
+    },
+    "Isernhagen": {
+        "city": "Isernhagen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.4541465,
+        "longitude": 9.7893688
+    },
+    "Schonach im Schwarzwald": {
+        "city": "Schonach im Schwarzwald",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.14244069999999,
+        "longitude": 8.202757199999999
+    },
+    "Koby\u0142ka": {
+        "city": "Koby\u0142ka",
+        "federal_state": "Masovian Voivodeship",
+        "country": "Poland",
+        "latitude": 52.33923799999999,
+        "longitude": 21.1959846
+    },
+    "Erkelenz": {
+        "city": "Erkelenz",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0784539,
+        "longitude": 6.315906999999999
+    },
+    "Heide": {
+        "city": "Heide",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.19517639999999,
+        "longitude": 9.1019015
+    },
+    "Mainbernheim": {
+        "city": "Mainbernheim",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7082033,
+        "longitude": 10.2187183
+    },
+    "Bopfingen": {
+        "city": "Bopfingen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8572411,
+        "longitude": 10.3542144
+    },
+    "Bremerhaven": {
+        "city": "Bremerhaven",
+        "federal_state": "Bremen",
+        "country": "Germany",
+        "latitude": 53.5395845,
+        "longitude": 8.5809424
+    },
+    "Ampfing": {
+        "city": "Ampfing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2540913,
+        "longitude": 12.413184
+    },
+    "Hohenberg an der Eger": {
+        "city": "Hohenberg an der Eger",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 50.0953502,
+        "longitude": 12.2196079
+    },
+    "Leopoldsh\u00f6he": {
+        "city": "Leopoldsh\u00f6he",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.0130537,
+        "longitude": 8.697266599999999
+    },
+    "Bergneustadt": {
+        "city": "Bergneustadt",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0204769,
+        "longitude": 7.648559499999998
+    },
+    "Offenbach": {
+        "city": "Offenbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.09563620000001,
+        "longitude": 8.776084299999999
+    },
+    "Hennigsdorf": {
+        "city": "Hennigsdorf",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.6351968,
+        "longitude": 13.1988982
+    },
+    "Schliersee": {
+        "city": "Schliersee",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.7349645,
+        "longitude": 11.8625291
+    },
+    "Gaildorf": {
+        "city": "Gaildorf",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.9998717,
+        "longitude": 9.7655136
+    },
+    "Bad Gottleuba-Berggie\u00dfh\u00fcbel": {
+        "city": "Bad Gottleuba-Berggie\u00dfh\u00fcbel",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.8516567,
+        "longitude": 13.9427648
+    },
+    "Kitzingen": {
+        "city": "Kitzingen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7413592,
+        "longitude": 10.1681783
+    },
+    "Lennestadt": {
+        "city": "Lennestadt",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.1067736,
+        "longitude": 8.074066
+    },
+    "Weinsberg": {
+        "city": "Weinsberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.1484633,
+        "longitude": 9.287265699999999
+    },
+    "Kaiserslautern": {
+        "city": "Kaiserslautern",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.4400657,
+        "longitude": 7.7491265
+    },
+    "Pl\u00f6n": {
+        "city": "Pl\u00f6n",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 54.16133019999999,
+        "longitude": 10.4259498
+    },
+    "Wittend\u00f6rp": {
+        "city": "Wittend\u00f6rp",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.54031879999999,
+        "longitude": 11.0840523
+    },
+    "Konz": {
+        "city": "Konz",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.6993563,
+        "longitude": 6.572681299999999
+    },
+    "Landau in der Pfalz": {
+        "city": "Landau in der Pfalz",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.19888599999999,
+        "longitude": 8.1185622
+    },
+    "Nordenham": {
+        "city": "Nordenham",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.498644,
+        "longitude": 8.4923932
+    },
+    "Raschau-Markersbach": {
+        "city": "Raschau-Markersbach",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.5299188,
+        "longitude": 12.8242365
+    },
+    "Wirges": {
+        "city": "Wirges",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.4716095,
+        "longitude": 7.7961968
+    },
+    "L\u00f6rrach": {
+        "city": "L\u00f6rrach",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.6167921,
+        "longitude": 7.6691015
+    },
+    "\u00d6hringen": {
+        "city": "\u00d6hringen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.199931,
+        "longitude": 9.5029492
+    },
+    "Zetel": {
+        "city": "Zetel",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.41806,
+        "longitude": 7.973800900000001
+    },
+    "Weimar": {
+        "city": "Weimar",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.9794934,
+        "longitude": 11.3235439
+    },
+    "Bobingen": {
+        "city": "Bobingen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2696917,
+        "longitude": 10.8295813
+    },
+    "Wemding": {
+        "city": "Wemding",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.8747116,
+        "longitude": 10.723805
+    },
+    "Sankt Augustin": {
+        "city": "Sankt Augustin",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.773458,
+        "longitude": 7.185113699999999
+    },
+    "Hasel\u00fcnne": {
+        "city": "Hasel\u00fcnne",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.6763414,
+        "longitude": 7.4809826
+    },
+    "Maikammer": {
+        "city": "Maikammer",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.30598630000001,
+        "longitude": 8.131494600000002
+    },
+    "Oberkochen": {
+        "city": "Oberkochen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.78526,
+        "longitude": 10.1046879
+    },
+    "Siegburg": {
+        "city": "Siegburg",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7998719,
+        "longitude": 7.212027200000001
+    },
+    "Greven": {
+        "city": "Greven",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.09651789999999,
+        "longitude": 7.617109999999999
+    },
+    "Birstein": {
+        "city": "Birstein",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.3532626,
+        "longitude": 9.3081108
+    },
+    "Altenburg": {
+        "city": "Altenburg",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.9931202,
+        "longitude": 12.4366572
+    },
+    "Brakel": {
+        "city": "Brakel",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.7156428,
+        "longitude": 9.180872299999999
+    },
+    "Pinneberg": {
+        "city": "Pinneberg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.6633556,
+        "longitude": 9.7925675
+    },
+    "Ladenburg": {
+        "city": "Ladenburg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4739759,
+        "longitude": 8.6077464
+    },
+    "Bad Schwalbach": {
+        "city": "Bad Schwalbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1402994,
+        "longitude": 8.0695976
+    },
+    "Mahlberg": {
+        "city": "Mahlberg",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.2870973,
+        "longitude": 7.8117676
+    },
+    "Leverkusen": {
+        "city": "Leverkusen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.04592479999999,
+        "longitude": 7.0192196
+    },
+    "Pavlograd": {
+        "city": "Pavlograd",
+        "federal_state": "Dnipropetrovsk Oblast",
+        "country": "Ukraine",
+        "latitude": 48.5294478,
+        "longitude": 35.9032574
+    },
+    "M\u00fchldorf": {
+        "city": "M\u00fchldorf",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2461124,
+        "longitude": 12.5229789
+    },
+    "Starnberg": {
+        "city": "Starnberg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.9999615,
+        "longitude": 11.3390089
+    },
+    "Mei\u00dfenheim": {
+        "city": "Mei\u00dfenheim",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.4082717,
+        "longitude": 7.775925
+    },
+    "Rommerskirchen": {
+        "city": "Rommerskirchen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.0349879,
+        "longitude": 6.6894908
+    },
+    "Lychen": {
+        "city": "Lychen",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 53.21087,
+        "longitude": 13.31541
+    },
+    "Zella-Mehlis": {
+        "city": "Zella-Mehlis",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.65879899999999,
+        "longitude": 10.6649645
+    },
+    "Lutherstadt Eisleben": {
+        "city": "Lutherstadt Eisleben",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.5195173,
+        "longitude": 11.5576749
+    },
+    "Eiterfeld": {
+        "city": "Eiterfeld",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.7616477,
+        "longitude": 9.797223899999999
+    },
+    "Neustadt-Glewe": {
+        "city": "Neustadt-Glewe",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.374297,
+        "longitude": 11.5913601
+    },
+    "Finnentrop": {
+        "city": "Finnentrop",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.17360910000001,
+        "longitude": 7.9736319
+    },
+    "Thalmassing": {
+        "city": "Thalmassing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.9117734,
+        "longitude": 12.1548299
+    },
+    "Przes\u0142aw": {
+        "city": "Przes\u0142aw",
+        "federal_state": "Podkarpackie Voivodeship",
+        "country": "Poland",
+        "latitude": 50.1933744,
+        "longitude": 21.4800673
+    },
+    "Ahrensburg": {
+        "city": "Ahrensburg",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.6764136,
+        "longitude": 10.2378854
+    },
+    "Bad Hindelang": {
+        "city": "Bad Hindelang",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.5058367,
+        "longitude": 10.3704552
+    },
+    "Bad Blankenburg": {
+        "city": "Bad Blankenburg",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.6823516,
+        "longitude": 11.2705981
+    },
+    "Germersheim": {
+        "city": "Germersheim",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 49.211472,
+        "longitude": 8.363785199999999
+    },
+    "Montabaur": {
+        "city": "Montabaur",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.4358385,
+        "longitude": 7.825795299999999
+    },
+    "B\u00fcrstadt": {
+        "city": "B\u00fcrstadt",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.6431526,
+        "longitude": 8.460227999999999
+    },
+    "Hasbergen": {
+        "city": "Hasbergen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2355545,
+        "longitude": 7.963972300000001
+    },
+    "Bad Ems": {
+        "city": "Bad Ems",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.33406189999999,
+        "longitude": 7.719239999999999
+    },
+    "Bad Essen": {
+        "city": "Bad Essen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.3198366,
+        "longitude": 8.3508274
+    },
+    "Norden": {
+        "city": "Norden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.59878519999999,
+        "longitude": 7.196716
+    },
+    "Heiligenhaus": {
+        "city": "Heiligenhaus",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3260583,
+        "longitude": 6.9666726
+    },
+    "Mutlangen": {
+        "city": "Mutlangen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.8221043,
+        "longitude": 9.7971398
+    },
+    "Edingen-Neckarhausen": {
+        "city": "Edingen-Neckarhausen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.4452916,
+        "longitude": 8.609355899999999
+    },
+    "Sonneberg": {
+        "city": "Sonneberg",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.3601821,
+        "longitude": 11.1709899
+    },
+    "Recklinghausen": {
+        "city": "Recklinghausen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.6117809,
+        "longitude": 7.197388500000001
+    },
+    "Delmenhorst": {
+        "city": "Delmenhorst",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.0485048,
+        "longitude": 8.6254748
+    },
+    "Freising": {
+        "city": "Freising",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.401454,
+        "longitude": 11.7413524
+    },
+    "Peine": {
+        "city": "Peine",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.3204095,
+        "longitude": 10.243267
+    },
+    "Altshausen": {
+        "city": "Altshausen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.9344318,
+        "longitude": 9.5383383
+    },
+    "Baiersbronn": {
+        "city": "Baiersbronn",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.5089458,
+        "longitude": 8.3706727
+    },
+    "L\u00fcdenscheid": {
+        "city": "L\u00fcdenscheid",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.2191038,
+        "longitude": 7.631259999999999
+    },
+    "Alsbach-H\u00e4hnlein": {
+        "city": "Alsbach-H\u00e4hnlein",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 49.7365976,
+        "longitude": 8.585234
+    },
+    "Schenefeld": {
+        "city": "Schenefeld",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.6021622,
+        "longitude": 9.837432999999999
+    },
+    "Hallbergmoos": {
+        "city": "Hallbergmoos",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.3250947,
+        "longitude": 11.7432155
+    },
+    "Burbach": {
+        "city": "Burbach",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.7455764,
+        "longitude": 8.0803107
+    },
+    "Waldkirch": {
+        "city": "Waldkirch",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.0914682,
+        "longitude": 7.958646799999999
+    },
+    "Stuhr": {
+        "city": "Stuhr",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.0289775,
+        "longitude": 8.7361402
+    },
+    "Bad Wildungen": {
+        "city": "Bad Wildungen",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.1175777,
+        "longitude": 9.1210407
+    },
+    "Warendorf": {
+        "city": "Warendorf",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9514351,
+        "longitude": 7.984100100000001
+    },
+    "Winh\u00f6ring": {
+        "city": "Winh\u00f6ring",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2655572,
+        "longitude": 12.6511498
+    },
+    "Erlangen": {
+        "city": "Erlangen",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.5896744,
+        "longitude": 11.0119611
+    },
+    "P\u00f6\u00dfneck": {
+        "city": "P\u00f6\u00dfneck",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.6968663,
+        "longitude": 11.5968389
+    },
+    "Tengen": {
+        "city": "Tengen",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.8191487,
+        "longitude": 8.6613188
+    },
+    "Saalfeld": {
+        "city": "Saalfeld",
+        "federal_state": "Thuringia",
+        "country": "Germany",
+        "latitude": 50.6492736,
+        "longitude": 11.3661502
+    },
+    "Olching": {
+        "city": "Olching",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.2070923,
+        "longitude": 11.327399
+    },
+    "Berchtesgaden": {
+        "city": "Berchtesgaden",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.6300314,
+        "longitude": 13.001148
+    },
+    "Lage": {
+        "city": "Lage",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.9906003,
+        "longitude": 8.789587299999999
+    },
+    "Freigericht": {
+        "city": "Freigericht",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1431461,
+        "longitude": 9.143807299999999
+    },
+    "Bad Friedrichshall": {
+        "city": "Bad Friedrichshall",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 49.2282271,
+        "longitude": 9.2165086
+    },
+    "Reichenbach": {
+        "city": "Reichenbach",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 50.6175423,
+        "longitude": 12.2990016
+    },
+    "Causeni": {
+        "city": "Causeni",
+        "federal_state": "C\u0103u\u0219eni District",
+        "country": "Moldova",
+        "latitude": 46.6498395,
+        "longitude": 29.4067638
+    },
+    "Bruchk\u00f6bel": {
+        "city": "Bruchk\u00f6bel",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.1824581,
+        "longitude": 8.9231185
+    },
+    "Schwepnitz": {
+        "city": "Schwepnitz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.32922199999999,
+        "longitude": 13.9591927
+    },
+    "Quickborn": {
+        "city": "Quickborn",
+        "federal_state": "Schleswig-Holstein",
+        "country": "Germany",
+        "latitude": 53.7289353,
+        "longitude": 9.9078766
+    },
+    "Radebeul": {
+        "city": "Radebeul",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.1115648,
+        "longitude": 13.6493707
+    },
+    "Korbach": {
+        "city": "Korbach",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 51.2774069,
+        "longitude": 8.8709876
+    },
+    "Landau an der Isar": {
+        "city": "Landau an der Isar",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.6744546,
+        "longitude": 12.692212
+    },
+    "Emden": {
+        "city": "Emden",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.35940290000001,
+        "longitude": 7.2060095
+    },
+    "Eisenbach (Hochschwarzwald)": {
+        "city": "Eisenbach (Hochschwarzwald)",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 47.9599056,
+        "longitude": 8.2674025
+    },
+    "Hohenstein": {
+        "city": "Hohenstein",
+        "federal_state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "latitude": 48.3482894,
+        "longitude": 9.3749018
+    },
+    "Duderstadt": {
+        "city": "Duderstadt",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.5096571,
+        "longitude": 10.2535104
+    },
+    "Chuguev": {
+        "city": "Chuguev",
+        "federal_state": "Kharkiv Oblast",
+        "country": "Ukraine",
+        "latitude": 49.8363158,
+        "longitude": 36.6813122
+    },
+    "Lindau (Bodensee)": {
+        "city": "Lindau (Bodensee)",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.55365430000001,
+        "longitude": 9.693054499999999
+    },
+    "Bad H\u00f6nningen": {
+        "city": "Bad H\u00f6nningen",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.5175662,
+        "longitude": 7.3085333
+    },
+    "Senftenberg": {
+        "city": "Senftenberg",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 51.5204143,
+        "longitude": 14.0049711
+    },
+    "G\u00fcnzburg": {
+        "city": "G\u00fcnzburg",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 48.45284119999999,
+        "longitude": 10.2775127
+    },
+    "Malschwitz": {
+        "city": "Malschwitz",
+        "federal_state": "Saxony",
+        "country": "Germany",
+        "latitude": 51.2374479,
+        "longitude": 14.5208636
+    },
+    "Tutzing": {
+        "city": "Tutzing",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 47.9125117,
+        "longitude": 11.2772666
+    },
+    "Blankenburg": {
+        "city": "Blankenburg",
+        "federal_state": "Saxony-Anhalt",
+        "country": "Germany",
+        "latitude": 51.8164261,
+        "longitude": 10.9773091
+    },
+    "Eschenburg": {
+        "city": "Eschenburg",
+        "federal_state": "Hessen",
+        "country": "Germany",
+        "latitude": 50.8069042,
+        "longitude": 8.3590564
+    },
+    "Netphen": {
+        "city": "Netphen",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 50.9150588,
+        "longitude": 8.1072664
+    },
+    "Apen": {
+        "city": "Apen",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.22168259999999,
+        "longitude": 7.8099126
+    },
+    "Kharkiv": {
+        "city": "Kharkiv",
+        "federal_state": "Kharkiv Oblast",
+        "country": "Ukraine",
+        "latitude": 50.00201269999999,
+        "longitude": 36.3073994
+    },
+    "Wittmund": {
+        "city": "Wittmund",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.5783573,
+        "longitude": 7.779684899999999
+    },
+    "Novorossiysk": {
+        "city": "Novorossiysk",
+        "federal_state": "Krasnodar Krai",
+        "country": "Russia",
+        "latitude": 44.7180464,
+        "longitude": 37.7770118
+    },
+    "J\u00f6rdenstorf": {
+        "city": "J\u00f6rdenstorf",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 53.8777467,
+        "longitude": 12.6163264
+    },
+    "Werne": {
+        "city": "Werne",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.665041,
+        "longitude": 7.631431000000001
+    },
+    "Melle": {
+        "city": "Melle",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.2033222,
+        "longitude": 8.337266399999999
+    },
+    "L\u00fcneburg": {
+        "city": "L\u00fcneburg",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.2478704,
+        "longitude": 10.4160637
+    },
+    "Bruck": {
+        "city": "Bruck",
+        "federal_state": "Brandenburg",
+        "country": "Germany",
+        "latitude": 52.2067053,
+        "longitude": 12.7349667
+    },
+    "Prostejov": {
+        "city": "Prostejov",
+        "federal_state": "Olomouc Region",
+        "country": "Czechia",
+        "latitude": 49.4724489,
+        "longitude": 17.1067513
+    },
+    "Wenden": {
+        "city": "Wenden",
+        "federal_state": "Arizona",
+        "country": "United States",
+        "latitude": 33.8225302,
+        "longitude": -113.5415936
+    },
+    "Alamudun": {
+        "city": "Alamudun",
+        "federal_state": "Ch\u00fcy Region",
+        "country": "Kyrgyzstan",
+        "latitude": 42.9072668,
+        "longitude": 74.6341875
+    },
+    "Bad Gandersheim": {
+        "city": "Bad Gandersheim",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 51.87179769999999,
+        "longitude": 10.023903
+    },
+    "Braubach": {
+        "city": "Braubach",
+        "federal_state": "Rhineland-Palatinate",
+        "country": "Germany",
+        "latitude": 50.27387400000001,
+        "longitude": 7.645875299999999
+    },
+    "Geldern": {
+        "city": "Geldern",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.5204439,
+        "longitude": 6.3257902
+    },
+    "Bassum": {
+        "city": "Bassum",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 52.8494721,
+        "longitude": 8.7268872
+    },
+    "Griepswohld": {
+        "city": "\u0413\u0440\u0430\u0439\u0444\u0441\u0432\u0430\u043b\u044c\u0434",
+        "federal_state": "Mecklenburg-Vorpommern",
+        "country": "Germany",
+        "latitude": 54.08654629999999,
+        "longitude": 13.3923414
+    },
+    "Duschanbe": {
+        "city": "Duschanbe city",
+        "federal_state": null,
+        "country": "Tajikistan",
+        "latitude": 38.5597722,
+        "longitude": 68.7870384
+    },
+    "Tatabanya": {
+        "city": "Tatabanya city",
+        "federal_state": null,
+        "country": "Hungary",
+        "latitude": 47.569246,
+        "longitude": 18.404818
+    },
+    "Riga": {
+        "city": "Riga city",
+        "federal_state": null,
+        "country": "Latvia",
+        "latitude": 56.9676941,
+        "longitude": 24.1056221
+    },
+    "Piatek": {
+        "city": "Piatek city",
+        "federal_state": "\u0141\u00f3d\u017a Voivodeship",
+        "country": "Poland",
+        "latitude": 52.0688122,
+        "longitude": 19.4797444
+    },
+    "Baku": {
+        "city": "Baku city",
+        "federal_state": null,
+        "country": "Azerbaijan",
+        "latitude": 40.40926169999999,
+        "longitude": 49.8670924
+    },
+    "Tashkent": {
+        "city": "Tashkent city",
+        "federal_state": null,
+        "country": "Uzbekistan",
+        "latitude": 41.2994958,
+        "longitude": 69.2400734
+    },
+    "Flo\u00df": {
+        "city": "Flo\u00df city",
+        "federal_state": "Bavaria",
+        "country": "Germany",
+        "latitude": 49.7267237,
+        "longitude": 12.2778579
+    },
+    "Lotte": {
+        "city": "Lotte city",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 52.2776141,
+        "longitude": 7.921831599999999
+    },
+    "Wetter": {
+        "city": "Wetter city",
+        "federal_state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "latitude": 51.3860225,
+        "longitude": 7.3914998
+    },
+    "Belgrade": {
+        "city": "Belgrade city",
+        "federal_state": "Montana",
+        "country": "United States",
+        "latitude": 45.7762463,
+        "longitude": -111.1770945
+    },
+    "Brake": {
+        "city": "Brake city",
+        "federal_state": "Lower Saxony",
+        "country": "Germany",
+        "latitude": 53.3263116,
+        "longitude": 8.4782391
+    }
+}
