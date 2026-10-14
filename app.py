@@ -1,4 +1,4 @@
-"""CRM Dash для Plotly Cloud / Dash Enterprise (Полная версия)"""
+"""CRM dashboard for deployment with Gunicorn."""
 from pathlib import Path
 import json
 import pickle
@@ -8,15 +8,14 @@ import numpy as np
 import pandas as pd
 from dash import Dash, Input, Output, State, ctx, no_update, dcc, html
 
-# Локальные файлы данных на сервере
-file_path = 'data.pickle'
+
+data_dir = Path(__file__).resolve().parent
+file_path = data_dir / 'data.pickle'
 with open(file_path, 'rb') as data_file:
     calls, contacts, deals, spend = pickle.load(data_file)
-
 deals, calls = deals.copy(), calls.copy()
 deals = deals.loc[~deals['Product'].astype('string').str.strip().str.casefold()
     .eq('find yourself in it').fillna(False)].copy()
-
 deals['paid'] = deals['Stage'].eq('Payment Done') | deals['Initial Amount Paid'].gt(0)
 deals['Результат'] = np.where(deals['paid'], 'Оплачено', np.where(deals['Stage'].eq('Lost'), 'Отказы', 'В работе'))
 filter_fields = ['Product', 'Source', 'Deal Owner Name', 'Результат', 'German Level']
@@ -37,18 +36,22 @@ options = {field: [{'label': 'Все', 'value': ALL}] + [
     for value in sorted(deals[field].unique(), key=lambda v: (v == 'Не указано', v))]
     for field in filter_fields}
 
-coordinates_path = Path('city_data_google_en.json')
+# Use the user's existing coordinate file; no geocoding or external lookup.
+coordinates_path = data_dir / 'city_data_google_en.json'
 city_records = json.loads(coordinates_path.read_text(encoding='utf-8-sig'))
 coordinates, city_aliases = {}, {}
 for name, record in city_records.items():
-    if not isinstance(record, dict): continue
+    if not isinstance(record, dict):
+        continue
     lat, lon = record.get('latitude'), record.get('longitude')
-    if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)): continue
-    if not (-90 <= lat <= 90 and -180 <= lon <= 180): continue
+    if not isinstance(lat, (int, float)) or not isinstance(lon, (int, float)):
+        continue
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+        continue
     coordinates[str(name).strip().casefold()] = (lat, lon)
     if record.get('city'):
         city_aliases.setdefault(str(record['city']).strip().casefold(), set()).add((lat, lon))
-or alias, positions in city_aliases.items():
+for alias, positions in city_aliases.items():
     if len(positions) == 1:
         coordinates.setdefault(alias, next(iter(positions)))
 city_keys = deals['City'].astype('string').str.strip().str.casefold()
@@ -58,6 +61,7 @@ deals['_lon'] = city_keys.map({city: position[1] for city, position in coordinat
 closed_data = None
 call_workload = None
 
+
 def closed_animation(selected, mode):
     global closed_data, call_workload
     if closed_data is None:
@@ -65,9 +69,12 @@ def closed_animation(selected, mode):
         closed_data['Stage'] = closed_data['Stage'].mask(closed_data['paid'], 'Payment Done')
         closed_data['_created_at'] = pd.to_datetime(closed_data['Created Time'], format='%d.%m.%Y %H:%M')
         closed_data['_closed_at'] = pd.to_datetime(closed_data['Closing Date'], format='%d.%m.%Y')
-        closed_data['Days to Close'] = (closed_data['_closed_at'].dt.normalize() - closed_data['_created_at'].dt.normalize()).dt.days
-        closed_data = closed_data.loc[closed_data['Stage'].isin(['Lost', 'Payment Done']) & closed_data['Days to Close'].ge(0)].copy()
+        closed_data['Days to Close'] = (closed_data['_closed_at'].dt.normalize()
+            - closed_data['_created_at'].dt.normalize()).dt.days
+        closed_data = closed_data.loc[closed_data['Stage'].isin(['Lost', 'Payment Done'])
+            & closed_data['Days to Close'].ge(0)].copy()
     if mode in ['calls', 'minutes'] and call_workload is None:
+        # Same interval calculation as section 9.2.4 of notebook 2.
         work = closed_data.loc[closed_data['_contact'].notna()].copy()
         work['Call Count'], work['Call Minutes'] = 0, 0.0
         groups = work.groupby('_contact').groups
@@ -75,13 +82,15 @@ def closed_animation(selected, mode):
         call_rows['_at'] = pd.to_datetime(call_rows['Call Start Time'], format='%d.%m.%Y %H:%M')
         call_rows['_seconds'] = pd.to_numeric(call_rows['Call Duration (in seconds)'])
         for contact, group in call_rows.groupby('_contact', sort=False):
-            if contact not in groups: continue
+            if contact not in groups:
+                continue
             indices = groups[contact]
             group = group.sort_values('_at')
             times = group['_at'].to_numpy()
             cumulative = np.r_[0, group['_seconds'].fillna(0).cumsum()]
             left = times.searchsorted(work.loc[indices, '_created_at'].to_numpy())
-            right = times.searchsorted((work.loc[indices, '_closed_at'].dt.normalize() + pd.Timedelta(days=1)).to_numpy())
+            right = times.searchsorted((work.loc[indices, '_closed_at'].dt.normalize()
+                + pd.Timedelta(days=1)).to_numpy())
             work.loc[indices, 'Call Count'] = right - left
             work.loc[indices, 'Call Minutes'] = (cumulative[right] - cumulative[left]) / 60
         call_workload = work[['Call Count', 'Call Minutes']]
@@ -106,7 +115,7 @@ def closed_animation(selected, mode):
                 part['_closed_at'].dt.strftime('%d.%m.%Y').tolist(), part['Product'].tolist(),
                 part['Days to Close'].tolist()]
             hover = ('<b>%{customdata[0]}</b><br>' + label
-                + '<br>Создание: %{customdata[1]}<br>Закрытие: %{customdata[2]迎来'
+                + '<br>Создание: %{customdata[1]}<br>Закрытие: %{customdata[2]}'
                 + '<br>Продукт: %{customdata[3]}<br>Срок: %{customdata[4]:.0f} дней')
             if mode in ['calls', 'minutes']:
                 details += [part['Call Count'].tolist(), part['Call Minutes'].tolist()]
@@ -138,9 +147,8 @@ def closed_animation(selected, mode):
                 {'label': 'Ⅱ', 'method': 'animate', 'args': [[None], instant]}]}],
     }}
 
-app = Dash(__name__, title='CRM онлайн-школы')
+app = Dash(__name__, title='Анализ данных CRM онлайн-школы программирования X')
 server = app.server
-
 app.index_string = '''<!DOCTYPE html>
 <html><head>{%metas%}<title>{%title%}</title>{%favicon%}{%css%}
 <style>
@@ -148,7 +156,7 @@ app.index_string = '''<!DOCTYPE html>
 .dashboard{max-width:1200px;margin:auto;padding:26px 24px 18px}
 h1{font-size:26px;font-weight:600;margin:0 0 22px;letter-spacing:-.5px}
 .workspace{display:grid;grid-template-columns:120px minmax(0,1fr);gap:26px}
-.map-wheel-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}.map-wheel-row>.chart-panel{min-width:0}
+.map-wheel-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}.map-wheel-row>.chart-panel{min-width:0;padding:8px 6px 0}
 .filters{padding:4px 18px 0 0;border-right:1px solid #ededf1}
 .filter{margin-bottom:22px}.filter>label{display:block;font-size:12px;color:#777b82;margin-bottom:8px}
 .reset{background:white;border:1px solid #d9d9e2;border-radius:7px;color:#646079;padding:9px 12px;width:100%;cursor:pointer}
@@ -182,14 +190,13 @@ for field, label, control_id in [
 filter_controls.append(html.Button('Сбросить фильтры', id='reset', n_clicks=0, className='reset'))
 
 cards = []
-for title, value_id in [('Сделки', 'deals-value'), ('Оплачено', 'paid-value'), ('Конверсия в оплату', 'conversion-value'),
+for title, value_id in [('Контрактов', 'deals-value'), ('Оплачено', 'paid-value'), ('Конверсия в оплату', 'conversion-value'),
                         ('Студентов', 'students-value'), ('Ещё получим', 'remaining-value')]:
     cards.append(html.Div([
         html.Div(title, className='metric-label'),
         html.Div(id=value_id, className='metric-value'),
     ]))
 product_options = [{'label': 'Все продукты', 'value': ALL}] + [option for option in options['Product'][1:] if option['value'] != 'Не указано']
-
 def journey_chart(selected):
     full_deals = globals()["deals"]
     created = full_deals['_date'].min()
@@ -201,6 +208,7 @@ def journey_chart(selected):
     sales = deals.copy()
     sales['sale_amount'] = sales['Initial Amount Paid'].where(sales['paid'])
     sales['first_payment'] = sales['Initial Amount Paid'].where(sales['paid'])
+    # Сводный рейтинг рекламных факторов: число сделок и нижняя граница конверсии по Уилсону.
     journey_factors = ["Source", "Campaign", "Term", "Content"]
     factor_values = deals[journey_factors].copy()
     factor_values["_paid"] = sales["paid"]
@@ -268,6 +276,7 @@ def journey_chart(selected):
         for values in factor_values[journey_factors].itertuples(index=False, name=None)
     ]
 
+    # Узлы различаются по колонке и ветке результата.
     node_totals, edge_totals = {}, {}
     def add_flow(target, key, values):
         target[key] = target.get(key, np.zeros(4)) + values
@@ -281,6 +290,7 @@ def journey_chart(selected):
         values = np.array([1, int(sales.at[idx, "paid"]),
                            sales.at[idx, "sale_amount"],
                            sales.at[idx, "first_payment"]], dtype=float)
+        # В суммах участвуют только известные значения.
         values[2:] = np.nan_to_num(values[2:])
         for key in path:
             add_flow(node_totals, key, values)
@@ -294,8 +304,9 @@ def journey_chart(selected):
     ))
     node_id = {key: i for i, key in enumerate(keys)}
 
+    # Фиксируем порядок: «Другие» находятся внизу каждой колонки.
     node_y = {}
-    gap = 18 / (1700 - 170 - 30)
+    gap = 18 / (1700 - 126 - 30)
     columns = [[k for k in keys if k[0] == col] for col in range(5)]
     height_scale = min(
         (1 - gap * (len(group) - 1)) / sum(node_totals[k][0] for k in group)
@@ -355,7 +366,7 @@ def journey_chart(selected):
                    x=0.01, xanchor="left", y=0.99, yanchor="top",
                    yref="container", font=dict(size=18)),
         autosize=True, height=1700, font=dict(size=12, color="#283044"),
-        paper_bgcolor="white", margin=dict(l=15, r=15, t=170, b=30),
+        paper_bgcolor="white", margin=dict(l=15, r=15, t=126, b=30),
         annotations=[dict(x=x, y=1, yshift=30, yanchor="bottom",
                           xref="paper", yref="paper",
                           text=f"<b>{label}</b>", showarrow=False, xanchor=anchor,
@@ -370,106 +381,92 @@ def journey_chart(selected):
 
 
 def workload_chart(selected_deals, owner, restricted):
-    all_deals, contacts_df, calls_df = globals()['deals'], globals()['contacts'], globals()['calls']
+    all_deals, contacts, calls = globals()['deals'], globals()['contacts'], globals()['calls']
     paid_contacts = all_deals.loc[all_deals['paid'], '_contact'].dropna().unique()
-    selected_contacts, selected_calls = contacts_df, calls_df
+    selected_contacts, selected_calls = contacts, calls
     if restricted:
         ids = selected_deals['_contact'].dropna().unique()
-        selected_contacts = contacts_df.loc[contacts_df['Id'].astype('string').str.strip().isin(ids)]
-        selected_calls = calls_df.loc[calls_df['_contact'].isin(ids)]
+        selected_contacts = contacts.loc[contacts['Id'].astype('string').str.strip().isin(ids)]
+        selected_calls = calls.loc[calls['_contact'].isin(ids)]
     if owner != ALL:
         selected_contacts = selected_contacts.loc[selected_contacts['Contact Owner Name'].eq(owner)]
         selected_calls = selected_calls.loc[selected_calls['Call Owner Name'].eq(owner)]
-    deals_df, contacts_df, calls_df = selected_deals, selected_contacts, selected_calls
+    deals, contacts, calls = selected_deals, selected_contacts, selected_calls
     workload = pd.concat([
-        deals_df.groupby('Deal Owner Name').size().rename('Сделки'),
-        contacts_df.groupby('Contact Owner Name').size().rename('Контакты'),
-        calls_df.groupby('Call Owner Name').size().rename('Звонки'),
+        deals.groupby('Deal Owner Name').size().rename('Сделки'),
+        contacts.groupby('Contact Owner Name').size().rename('Контакты'),
+        calls.groupby('Call Owner Name').size().rename('Звонки'),
     ], axis=1).fillna(0).sort_values(['Сделки', 'Контакты', 'Звонки'], ascending=False)
-    
-    wheel_paid = (deals_df["Stage"] == "Payment Done") | deals_df["Initial Amount Paid"].gt(0)
+    # Один пузырь — одна запись; владельцы берутся из каждой таблицы отдельно.
+    wheel_paid = (deals["Stage"] == "Payment Done") | deals["Initial Amount Paid"].gt(0)
     wheel_paid_contacts = paid_contacts
     wheel_layers = [
-        ("Сделки · прочие", deals_df.loc[~wheel_paid], "Deal Owner Name", 0.04, 0.44, "#158BDF", 1.5),
-        ("Сделки", deals_df.loc[wheel_paid], "Deal Owner Name", 0.04, 0.44, "#20B848", 8),
-        ("Контакты", contacts_df, "Contact Owner Name", 0.46, 0.60, "#FF8A16", 6),
-        ("Звонки", calls_df, "Call Owner Name", 0.62, 1.00, "#A33DD2", 5),
+        ("Сделки · прочие", deals.loc[~wheel_paid], "Deal Owner Name", 0.04, 0.44, "#158BDF", 1.5),
+        ("Сделки", deals.loc[wheel_paid], "Deal Owner Name", 0.04, 0.44, "#20B848", 8),
+        ("Контакты", contacts, "Contact Owner Name", 0.46, 0.60, "#FF8A16", 6),
+        ("Звонки", calls, "Call Owner Name", 0.62, 1.00, "#A33DD2", 5),
     ]
     wheel_owners = workload.index.tolist()
     wheel = go.Figure()
-    wheel_buttons, wheel_full = [], []
-    for selected in [None]:
-        wheel_rng = np.random.default_rng(42)
-        owners = wheel_owners if selected is None else [selected]
-        layer_x, layer_y, layer_data, layer_sizes = [], [], [], []
-        for label, frame, owner_field, inner, outer, color, bubble_size in wheel_layers:
-            xs, ys, info, sizes = [], [], [], []
-            for j, o in enumerate(owners):
-                rows = frame.loc[(frame[owner_field] == o)]
-                radius = np.sqrt(wheel_rng.uniform(inner**2, outer**2, len(rows)))
-                angle = (j + wheel_rng.uniform(0.04, 0.96, len(rows))) * 2*np.pi/len(owners) - np.pi/2
-                xs.extend((radius*np.cos(angle)).round(5).tolist())
-                ys.extend((radius*np.sin(angle)).round(5).tolist())
-                if owner_field == "Contact Owner Name":
-                    linked_paid = rows["Id"].astype("string").str.strip().isin(wheel_paid_contacts)
-                elif owner_field == "Call Owner Name":
-                    linked_paid = rows["CONTACTID"].astype("string").str.strip().isin(wheel_paid_contacts)
-                else:
-                    linked_paid = (rows["Stage"] == "Payment Done") | rows["Initial Amount Paid"].gt(0)
-                sizes.extend((np.where(linked_paid, bubble_size, 1.5) * (1 if selected is None else 1.2)).tolist())
-                info.extend([[o, str(record), "Связано с оплатой" if linked else "Без подтверждённой связи с оплатой"]
-                             for record, linked in zip(rows["Id"], linked_paid)])
-            layer_x.append(xs); layer_y.append(ys); layer_data.append(info)
-            layer_sizes.append(sizes)
-        annotations, lines, label_points = [], [], []
-        if selected is None:
-            for j, o in enumerate(owners):
-                angle = (j+0.5)*2*np.pi/len(owners) - np.pi/2
-                label_points.append((np.cos(angle), np.sin(angle), o))
-                edge = j*2*np.pi/len(owners) - np.pi/2
-                lines.append(dict(type="line", x0=0.025*np.cos(edge), y0=0.025*np.sin(edge),
-                                  x1=np.cos(edge), y1=np.sin(edge), line=dict(color="#E5EAF2", width=0.7), layer="below"))
-            for side in [-1, 1]:
-                labels = sorted([point for point in label_points if (point[0] >= 0) == (side == 1)], key=lambda point: point[1])
-                for (x, y, o), label_y in zip(labels, np.linspace(-1.04, 1.04, len(labels))):
-                    annotations.append(dict(x=side*1.17, y=label_y, text=o, showarrow=False,
-                        xanchor="left" if side == 1 else "right", font=dict(size=11, color="#36435B")))
-                    lines.append(dict(type="line", x0=x*1.02, y0=y*1.02, x1=side*1.14, y1=label_y,
-                                      line=dict(color="#CCD6E5", width=0.7), layer="below"))
-        rings = [dict(type="circle", x0=-r, y0=-r, x1=r, y1=r,
-                      line=dict(color="#DDE4EE", width=1), layer="below") for r in [0.45, 0.61, 1.015]]
-        if selected is None:
-            wheel_full = [layer_x, layer_y, layer_data]
-            for i, (label, frame, owner_field, inner, outer, color, bubble_size) in enumerate(wheel_layers):
-                wheel.add_trace(go.Scattergl(x=layer_x[i], y=layer_y[i], mode="markers", name=label, showlegend=(i != 0),
-                    customdata=layer_data[i], marker=dict(color=color, size=layer_sizes[i], opacity=0.45 if i == 0 else 0.85,
-                        line=dict(color="white", width=0 if i == 0 else 0.5)),
-                    hovertemplate="<b>%{customdata[0]}</b><br>"+label+" · ID %{customdata[1]}<br>%{customdata[2]}<extra></extra>"))
-        wheel_buttons.append(dict(label="Все менеджеры" if selected is None else selected, method="update",
-            args=[{"x": layer_x, "y": layer_y, "customdata": layer_data, "marker.size": layer_sizes},
-                  {"annotations": annotations, "shapes": rings+lines,
-                   "title.text": "Нагрузка менеджеров" if selected is None else "Нагрузка · "+selected,
-                   "xaxis.range": [-1.80, 1.80] if selected is None else [-1.12, 1.12],
-                   "yaxis.range": [-1.20, 1.20] if selected is None else [-1.12, 1.12]}]))
+    wheel_rng = np.random.default_rng(42)
+    owners = wheel_owners
+    layer_x, layer_y, layer_data, layer_sizes = [], [], [], []
+    for label, frame, owner_field, inner, outer, color, bubble_size in wheel_layers:
+        xs, ys, info, sizes = [], [], [], []
+        for j, owner in enumerate(owners):
+            rows = frame.loc[(frame[owner_field] == owner)]
+            radius = np.sqrt(wheel_rng.uniform(inner**2, outer**2, len(rows)))
+            angle = (j + wheel_rng.uniform(0.04, 0.96, len(rows))) * 2*np.pi/len(owners) - np.pi/2
+            xs.extend((radius*np.cos(angle)).round(5).tolist())
+            ys.extend((radius*np.sin(angle)).round(5).tolist())
+            if owner_field == "Contact Owner Name":
+                linked_paid = rows["Id"].astype("string").str.strip().isin(wheel_paid_contacts)
+            elif owner_field == "Call Owner Name":
+                linked_paid = rows["CONTACTID"].astype("string").str.strip().isin(wheel_paid_contacts)
+            else:
+                linked_paid = (rows["Stage"] == "Payment Done") | rows["Initial Amount Paid"].gt(0)
+            sizes.extend((np.where(linked_paid, bubble_size, 1.5)).tolist())
+            info.extend([[owner, str(record), "Связано с оплатой" if linked else "Без подтверждённой связи с оплатой"]
+                         for record, linked in zip(rows["Id"], linked_paid)])
+        layer_x.append(xs); layer_y.append(ys); layer_data.append(info)
+        layer_sizes.append(sizes)
+    annotations, lines, label_points = [], [], []
+    for j, owner in enumerate(owners):
+        angle = (j+0.5)*2*np.pi/len(owners) - np.pi/2
+        label_points.append((np.cos(angle), np.sin(angle), owner))
+        edge = j*2*np.pi/len(owners) - np.pi/2
+        lines.append(dict(type="line", x0=0.025*np.cos(edge), y0=0.025*np.sin(edge),
+                          x1=np.cos(edge), y1=np.sin(edge), line=dict(color="#E5EAF2", width=0.7), layer="below"))
+    for side in [-1, 1]:
+        labels = sorted([point for point in label_points if (point[0] >= 0) == (side == 1)], key=lambda point: point[1])
+        for (x, y, owner), label_y in zip(labels, np.linspace(-1.04, 1.04, len(labels))):
+            annotations.append(dict(x=side*1.035, y=label_y, text=owner, showarrow=False,
+                xanchor="left" if side == 1 else "right", font=dict(size=11, color="#36435B")))
+            lines.append(dict(type="line", x0=x*1.02, y0=y*1.02, x1=side*1.025, y1=label_y,
+                              line=dict(color="#CCD6E5", width=0.7), layer="below"))
+    rings = [dict(type="circle", x0=-r, y0=-r, x1=r, y1=r,
+                  line=dict(color="#DDE4EE", width=1), layer="below") for r in [0.45, 0.61, 1.015]]
+    for i, (label, frame, owner_field, inner, outer, color, bubble_size) in enumerate(wheel_layers):
+        wheel.add_trace(go.Scattergl(x=layer_x[i], y=layer_y[i], mode="markers", name=label, showlegend=(i != 0),
+            customdata=layer_data[i], marker=dict(color=color, size=layer_sizes[i], opacity=0.45 if i == 0 else 0.85,
+                line=dict(color="white", width=0 if i == 0 else 0.5)),
+            hovertemplate="<b>%{customdata[0]}</b><br>"+label+" · ID %{customdata[1]}<br>%{customdata[2]}<extra></extra>"))
     wheel.update_layout(
-        title=dict(text="Нагрузка менеджеров", x=0.02, y=0.99, font=dict(size=25, color="#23324C")),
+        title=dict(text="Активность и результативность менеджеров", x=0.02, y=0.99, font=dict(size=25, color="#23324C")),
         template="plotly_white", height=950, autosize=True, margin=dict(l=15, r=15, t=155, b=25),
         font=dict(family="Arial", size=13, color="#36435B"),
-        xaxis=dict(visible=False, range=[-1.80, 1.80], constrain="domain"),
-        yaxis=dict(visible=False, range=[-1.20, 1.20], scaleanchor="x", scaleratio=1),
-        annotations=wheel_buttons[0]["args"][1]["annotations"], shapes=wheel_buttons[0]["args"][1]["shapes"],
+        xaxis=dict(visible=False, range=[-1.52, 1.52], constrain="domain"),
+        yaxis=dict(visible=False, range=[-1.06, 1.06], scaleanchor="x", scaleratio=1, constrain="domain"),
+        annotations=annotations, shapes=rings+lines,
         legend=dict(orientation="h", x=1, xanchor="right", y=1.10, yanchor="top", itemsizing="constant"),
-        updatemenus=[dict(buttons=wheel_buttons, direction="down", x=0.01, y=1.10,
-                         xanchor="left", yanchor="top", bgcolor="#F1F4FA", bordercolor="#D3DCEB")],
         hoverlabel=dict(bgcolor="white", font_color="#23324C", bordercolor="#D3DCEB"),
     )
-    wheel.update_layout(updatemenus=[])
     return wheel
 
 
 app.layout = html.Div([
     dcc.Store(id='selected-city', data=None),
-    html.H1('CRM онлайн-школы'),
+    html.H1('Анализ данных CRM онлайн-школы программирования X'),
     html.Div([
         html.Aside(filter_controls, className='filters'),
         html.Main([
@@ -482,9 +479,9 @@ app.layout = html.Div([
                         config={'displaylogo': False, 'displayModeBar': True, 'scrollZoom': True,
                                 'modeBarButtons': [['zoomInMap', 'zoomOutMap', 'resetViewMap']]},
                         style={'height': '460px'}), color='#8373D7'),
-                ], className='chart-panel'),
+                ], className='chart-panel', style={}),
                 html.Div([
-                    html.H2('Воронка сверху'),
+                    html.H2('Активность и результативность менеджеров'),
                     dcc.Loading(dcc.Graph(id='workload-wheel', responsive=True,
                         config={'displaylogo': False, 'displayModeBar': False},
                         style={'height': '460px'}), color='#8373D7'),
@@ -495,7 +492,7 @@ app.layout = html.Div([
     html.Div([
         dcc.Tabs(id='animation-tabs', value='activity', className='animation-tabs', children=[
             dcc.Tab(label=label, value=value, className='animation-tab', selected_className='animation-tab animation-tab-selected')
-            for label, value in [('Сделки и звонки', 'activity'), ('Срок закрытия', 'duration'),
+            for label, value in [('Сделки и звонки', 'activity'), ('Сроки закрытия сделок', 'duration'),
                                   ('Количество звонков', 'calls'), ('Минуты звонков', 'minutes')]]
         ),
         dcc.Loading(dcc.Graph(id='daily-bubbles', responsive=True,
@@ -628,7 +625,7 @@ def update_dashboard(source, owner, result, german, product, animation_tab='acti
     students = selected.loc[selected['Offer Total Amount'].gt(0), 'Id'].nunique()
     remaining = (selected['Offer Total Amount'].sum(min_count=1)
         - selected['Initial Amount Paid'].sum(min_count=1)) if count else 0
-    remaining_text = f'{remaining:,.2f} €'.replace(',', ' ').replace('.', ',') if pd.notna(remaining) else '-'
+    remaining_text = f'{remaining:,.0f} €'.replace(',', ' ').replace('.', ',') if pd.notna(remaining) else '-'
     return (f'{count:,}'.replace(',', ' '), f'{paid_count:,}'.replace(',', ' '), conversion,
             f'{students:,}'.replace(',', ' '), remaining_text, figure, graph_style)
 
@@ -647,8 +644,9 @@ def update_detail_charts(source, owner, result, german, product, city):
     if city is not None:
         selected = selected.loc[selected['City'].eq(city)]
     wheel = workload_chart(selected, owner, city is not None or any(value != ALL for value in choices))
-    wheel.update_layout(height=460, title_text='', margin=dict(l=5, r=5, t=42, b=5),
-                        legend=dict(font=dict(size=9), y=1.08), font=dict(size=9))
+    wheel.update_layout(height=460, title_text='', margin=dict(l=0, r=0, t=36, b=0),
+                        legend=dict(font=dict(size=9), x=0.02, xref='container', xanchor='left',
+                                    y=1, yref='container', yanchor='top'), font=dict(size=9))
     for annotation in wheel.layout.annotations:
         annotation.font.size = 8
     return wheel, journey_chart(selected)
@@ -720,7 +718,9 @@ def update_map(source, owner, result, german, product):
         'height': 460, 'margin': {'l': 0, 'r': 0, 't': 36, 'b': 0},
         'font': {'family': 'Arial, sans-serif', 'size': 12, 'color': '#74747f'},
         'paper_bgcolor': '#ffffff', 'uirevision': 'crm-cities',
-        'legend': {'orientation': 'h', 'x': 0, 'y': 1.1},
+        'legend': {'orientation': 'h', 'x': 0.02, 'xref': 'container', 'xanchor': 'left',
+                   'y': 1, 'yref': 'container', 'yanchor': 'top',
+                   'itemclick': False, 'itemdoubleclick': False},
         'map': {'style': 'carto-positron', 'center': {'lat': 51.1, 'lon': 10.4}, 'zoom': 4.5,
             'layers': map_layers},
     }}
@@ -729,7 +729,3 @@ def update_map(source, owner, result, german, product):
         geo_figure['data'] = []
         geo_figure['layout']['map']['layers'] = []
     return geo_figure
-
-
-if __name__ == '__main__':
-    app.run_server(debug=False, host='0.0.0.0', port=8050)
